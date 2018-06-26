@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -8583,29 +8584,29 @@ Metric Code Size 5664</description>
 </classes>
 <parts>
 <part name="U$1" library="rocketfarm" deviceset="ARDUINONANO" device=""/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X8" device=""/>
-<part name="JP2" library="pinhead" deviceset="PINHD-1X8" device=""/>
-<part name="JP3" library="pinhead" deviceset="PINHD-1X6" device=""/>
-<part name="JP4" library="pinhead" deviceset="PINHD-1X6" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="0207/10"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0207/10"/>
-<part name="LED7" library="led" deviceset="LED" device="5MM"/>
+<part name="JP1" library="pinhead" deviceset="PINHD-1X8" device="" value="2.54mm"/>
+<part name="JP2" library="pinhead" deviceset="PINHD-1X8" device="" value="2.54mm"/>
+<part name="JP3" library="pinhead" deviceset="PINHD-1X6" device="" value="2.54mm"/>
+<part name="JP4" library="pinhead" deviceset="PINHD-1X6" device="" value="2.54mm"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="0207/10" value="4.7K"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="0207/10" value="470"/>
+<part name="LED7" library="led" deviceset="LED" device="5MM" value="5mm"/>
 <part name="BUZZER6" library="buzzer" deviceset="F/TMB" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun" deviceset="POWER_JACK" device="PTH"/>
 <part name="D1" library="diode" deviceset="1N4004" device=""/>
-<part name="C1" library="adafruit" deviceset="C-US" device="C1206"/>
+<part name="C1" library="adafruit" deviceset="C-US" device="C1206" value="1μF"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="v-reg" deviceset="LD117A?*" device="S" technology="33TR" value="VR1"/>
-<part name="C2" library="adafruit" deviceset="C-US" device="C1206"/>
-<part name="C3" library="adafruit" deviceset="C-US" device="C1206"/>
-<part name="C4" library="adafruit" deviceset="C-US" device="C1206"/>
-<part name="C5" library="adafruit" deviceset="C-US" device="C1206"/>
-<part name="C6" library="adafruit" deviceset="C-US" device="C1206"/>
-<part name="JP5" library="pinhead" deviceset="PINHD-2X3" device=""/>
-<part name="JP6" library="pinhead" deviceset="PINHD-2X3" device=""/>
+<part name="C2" library="adafruit" deviceset="C-US" device="C1206" value="10μF"/>
+<part name="C3" library="adafruit" deviceset="C-US" device="C1206" value="0.1μF"/>
+<part name="C4" library="adafruit" deviceset="C-US" device="C1206" value="0.1μF"/>
+<part name="C5" library="adafruit" deviceset="C-US" device="C1206" value="0.1μF"/>
+<part name="C6" library="adafruit" deviceset="C-US" device="C1206" value="0.1μF"/>
+<part name="JP5" library="pinhead" deviceset="PINHD-2X3" device="" value="2.54mm"/>
+<part name="JP6" library="pinhead" deviceset="PINHD-2X3" device="" value="2.54mm"/>
 </parts>
 <sheets>
 <sheet>
@@ -9067,6 +9068,54 @@ Metric Code Size 5664</description>
 <wire x1="86.36" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
 <label x="88.9" y="53.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUT"/>
+<wire x1="63.5" y1="101.6" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
+<label x="66.04" y="101.6" size="1.778" layer="95"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
+<junction x="68.58" y="101.6"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="3"/>
+<wire x1="121.92" y1="114.3" x2="114.3" y2="114.3" width="0.1524" layer="91"/>
+<label x="111.76" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="A" pin="4"/>
+<wire x1="129.54" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
+<label x="134.62" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="A" pin="3"/>
+<wire x1="149.86" y1="114.3" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
+<label x="142.24" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="A" pin="4"/>
+<wire x1="157.48" y1="114.3" x2="165.1" y2="114.3" width="0.1524" layer="91"/>
+<label x="162.56" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="96.52" x2="205.74" y2="99.06" width="0.1524" layer="91"/>
+<label x="205.74" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="220.98" y1="96.52" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
+<label x="220.98" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="236.22" y1="96.52" x2="236.22" y2="99.06" width="0.1524" layer="91"/>
+<label x="236.22" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="96.52" x2="248.92" y2="99.06" width="0.1524" layer="91"/>
+<label x="248.92" y="99.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -9127,59 +9176,13 @@ Metric Code Size 5664</description>
 <wire x1="2.54" y1="91.44" x2="10.16" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="5VS" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUT"/>
-<wire x1="63.5" y1="101.6" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
-<label x="66.04" y="101.6" size="1.778" layer="95"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
-<junction x="68.58" y="101.6"/>
-</segment>
-<segment>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="96.52" x2="205.74" y2="99.06" width="0.1524" layer="91"/>
-<label x="205.74" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="220.98" y1="96.52" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
-<label x="220.98" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="96.52" x2="236.22" y2="99.06" width="0.1524" layer="91"/>
-<label x="236.22" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="248.92" y1="96.52" x2="248.92" y2="99.06" width="0.1524" layer="91"/>
-<label x="248.92" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP5" gate="A" pin="3"/>
-<wire x1="121.92" y1="114.3" x2="114.3" y2="114.3" width="0.1524" layer="91"/>
-<label x="111.76" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP5" gate="A" pin="4"/>
-<wire x1="129.54" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
-<label x="134.62" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP6" gate="A" pin="3"/>
-<wire x1="149.86" y1="114.3" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
-<label x="142.24" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP6" gate="A" pin="4"/>
-<wire x1="157.48" y1="114.3" x2="165.1" y2="114.3" width="0.1524" layer="91"/>
-<label x="162.56" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,86.36,43.18,A6,,,,,"/>
+<approved hash="106,1,86.36,48.26,A7,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
