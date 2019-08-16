@@ -833,14 +833,17 @@ type 0207, grid 10 mm</description>
 <wire x1="0" y1="0" x2="4.1" y2="0" width="0.1524" layer="21"/>
 <wire x1="4.1" y1="0" x2="19.4" y2="0" width="0.1524" layer="21"/>
 <wire x1="19.4" y1="0" x2="23.5" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="29" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="22" width="0.1524" layer="21"/>
+<wire x1="0" y1="22" x2="0" y2="29" width="0.1524" layer="21"/>
 <wire x1="0" y1="29" x2="23.5" y2="29" width="0.1524" layer="21"/>
-<wire x1="23.5" y1="29" x2="23.5" y2="0" width="0.1524" layer="21"/>
+<wire x1="23.5" y1="29" x2="23.5" y2="22" width="0.1524" layer="21"/>
+<wire x1="23.5" y1="22" x2="23.5" y2="0" width="0.1524" layer="21"/>
 <wire x1="4.13" y1="2.54" x2="19.37" y2="2.54" width="0.1524" layer="21"/>
 <wire x1="4.1" y1="2.5" x2="4.1" y2="0" width="0.1524" layer="21"/>
 <wire x1="19.4" y1="2.5" x2="19.4" y2="0" width="0.1524" layer="21"/>
 <text x="-1.27" y="10.16" size="1.778" layer="21" rot="R90">&gt;NAME</text>
 <text x="26.416" y="10.033" size="1.778" layer="21" rot="R90">&gt;VALUE</text>
+<wire x1="0" y1="22" x2="23.5" y2="22" width="0.1524" layer="21"/>
 </package>
 <package name="SOT23-DBV">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt; DBV (R-PDSO-G5)&lt;p&gt;
@@ -3271,11 +3274,9 @@ LED and Buzzer</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,221.234,144.78,J3,VBUS,VUSB,,,"/>
+<approved hash="104,1,211.074,144.78,J4,VBUS,N$17,,,"/>
 <approved hash="106,1,60.96,119.38,A6,,,,,"/>
 <approved hash="106,1,60.96,121.92,A7,,,,,"/>
-<approved hash="113,1,146.008,31.9761,JP1,,,,,"/>
-<approved hash="113,1,146.008,16.7361,JP2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
