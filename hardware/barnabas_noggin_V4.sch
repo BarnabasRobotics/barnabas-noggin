@@ -224,10 +224,6 @@ by exp-lbrs.ulp</description>
 <packages>
 <package name="FUSE_0603">
 <circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
-<wire x1="-0.814" y1="-0.4" x2="0.786" y2="-0.4" width="0.025" layer="51"/>
-<wire x1="0.786" y1="-0.4" x2="0.786" y2="0.4" width="0.025" layer="51"/>
-<wire x1="0.786" y1="0.4" x2="-0.814" y2="0.4" width="0.025" layer="51"/>
-<wire x1="-0.814" y1="0.4" x2="-0.814" y2="-0.4" width="0.025" layer="51"/>
 <wire x1="-0.35" y1="0" x2="0.35" y2="0" width="0.05" layer="39"/>
 <wire x1="0" y1="-0.35" x2="0" y2="0.35" width="0.05" layer="39"/>
 <wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.05" layer="39"/>
@@ -236,11 +232,19 @@ by exp-lbrs.ulp</description>
 <wire x1="1.6" y1="0.8" x2="-1.6" y2="0.8" width="0.05" layer="39"/>
 <smd name="1" x="-0.8" y="0" dx="0.95" dy="1" layer="1" roundness="3"/>
 <smd name="2" x="0.8" y="0" dx="0.95" dy="1" layer="1" roundness="3"/>
-<text x="-1.27" y="0.9525" size="0.6096" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="0.9525" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<wire x1="-1.397" y1="0.635" x2="-1.397" y2="-0.635" width="0.0762" layer="21"/>
+<wire x1="-1.397" y1="-0.635" x2="1.397" y2="-0.635" width="0.0762" layer="21"/>
+<wire x1="1.397" y1="-0.635" x2="1.397" y2="0.635" width="0.0762" layer="21"/>
+<wire x1="1.397" y1="0.635" x2="-1.397" y2="0.635" width="0.0762" layer="21"/>
+<wire x1="-1.27" y1="0.508" x2="-1.27" y2="-0.508" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="-0.508" x2="1.27" y2="-0.508" width="0.127" layer="51"/>
+<wire x1="1.27" y1="-0.508" x2="1.27" y2="0.508" width="0.127" layer="51"/>
+<wire x1="1.27" y1="0.508" x2="-1.27" y2="0.508" width="0.127" layer="51"/>
+<text x="0" y="0" size="0.8128" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="VQFN32">
 <description>mlf-32</description>
-<circle x="-1.6" y="1.6" radius="0.3162" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
 <wire x1="2.5" y1="2.5" x2="-2.1825" y2="2.5" width="0.127" layer="21"/>
@@ -280,14 +284,14 @@ by exp-lbrs.ulp</description>
 <smd name="31" x="-1.25" y="2.45" dx="0.28" dy="0.7" layer="1" roundness="80" rot="R180"/>
 <smd name="32" x="-1.75" y="2.45" dx="0.28" dy="0.7" layer="1" roundness="80" rot="R180"/>
 <smd name="33" x="0" y="0" dx="3.254" dy="3.254" layer="1" roundness="15" rot="R180" stop="no" cream="no"/>
-<text x="-3.1" y="2" size="0.8128" layer="21">1</text>
-<text x="-2.3" y="2.8" size="1.27" layer="21">&gt;name</text>
+<text x="-2.3" y="2.8" size="1.016" layer="21" font="vector">&gt;NAME</text>
 <polygon width="0.127" layer="29">
 <vertex x="0" y="1.27" curve="-90"/>
 <vertex x="1.27" y="0" curve="-90"/>
 <vertex x="0" y="-1.27" curve="-90"/>
 <vertex x="-1.27" y="0" curve="-90"/>
 </polygon>
+<wire x1="-2.794" y1="1.778" x2="-1.651" y2="1.778" width="0.1524" layer="21"/>
 </package>
 <package name="SOIC16">
 <description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
@@ -330,7 +334,11 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <smd name="14" x="-1.905" y="2.695" dx="0.635" dy="1.524" layer="1"/>
 <smd name="15" x="-3.175" y="2.695" dx="0.635" dy="1.524" layer="1"/>
 <smd name="16" x="-4.445" y="2.695" dx="0.635" dy="1.524" layer="1"/>
-<text x="-5.08" y="-2.54" size="1.27" layer="25" rot="R90">CH340G</text>
+<text x="-5.08" y="-2.54" size="1.016" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<wire x1="-4.826" y1="1.778" x2="-4.826" y2="-1.778" width="0.0762" layer="21"/>
+<wire x1="-4.826" y1="-1.778" x2="4.826" y2="-1.778" width="0.0762" layer="21"/>
+<wire x1="4.826" y1="-1.778" x2="4.826" y2="1.778" width="0.0762" layer="21"/>
+<wire x1="4.826" y1="1.778" x2="-4.826" y2="1.778" width="0.0762" layer="21"/>
 </package>
 <package name="C0603-ROUND">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -339,15 +347,20 @@ chip</description>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <smd name="1" x="-0.889" y="0" dx="1.1" dy="0.8984" layer="1" roundness="80" rot="R90"/>
 <smd name="2" x="0.889" y="0" dx="1.1" dy="0.8984" layer="1" roundness="80" rot="R90"/>
-<text x="-0.889" y="0.762" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.889" y="0.762" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-0.889" y="-2.032" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.397" y1="0.635" x2="-1.397" y2="-0.635" width="0.0762" layer="21"/>
+<wire x1="-1.397" y1="-0.635" x2="1.397" y2="-0.635" width="0.0762" layer="21"/>
+<wire x1="1.397" y1="-0.635" x2="1.397" y2="0.635" width="0.0762" layer="21"/>
+<wire x1="1.397" y1="0.635" x2="-1.397" y2="0.635" width="0.0762" layer="21"/>
+<wire x1="-1.397" y1="0.635" x2="-1.397" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="-1.397" y1="-0.635" x2="1.397" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="1.397" y1="-0.635" x2="1.397" y2="0.635" width="0.127" layer="51"/>
+<wire x1="1.397" y1="0.635" x2="-1.397" y2="0.635" width="0.127" layer="51"/>
+<text x="0" y="0" size="0.8128" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="TAN-A">
 <wire x1="-0.4318" y1="-0.8128" x2="-0.4318" y2="0.8128" width="0.127" layer="51"/>
@@ -359,7 +372,7 @@ chip</description>
 <wire x1="-0.8128" y1="0.9652" x2="-0.8128" y2="-0.9652" width="0.127" layer="21"/>
 <smd name="1" x="0" y="0" dx="1.1176" dy="1.778" layer="1"/>
 <smd name="2" x="2.794" y="0" dx="1.1176" dy="1.778" layer="1"/>
-<text x="-0.6604" y="1.2954" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-0.6604" y="1.2954" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-0.6604" y="-1.651" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="CONNECTOR_2X3">
@@ -398,7 +411,7 @@ chip</description>
 <pad name="4" x="0" y="1.27" drill="1.016" diameter="1.55" shape="octagon"/>
 <pad name="5" x="2.54" y="-1.27" drill="1.016" diameter="1.55" shape="octagon"/>
 <pad name="6" x="2.54" y="1.27" drill="1.016" diameter="1.55" shape="octagon"/>
-<text x="-3.81" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="3.175" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-3.81" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="CONNECTOR_USB_MINI-B">
@@ -421,10 +434,16 @@ chip</description>
 <smd name="7" x="-2.7175" y="0.36" dx="1.778" dy="2.286" layer="1" rot="R90"/>
 <smd name="8" x="5.9185" y="0.36" dx="1.778" dy="2.286" layer="1" rot="R90"/>
 <smd name="9" x="5.9185" y="5.948" dx="1.778" dy="2.286" layer="1" rot="R90"/>
-<text x="-4.064" y="-3.175" size="1.27" layer="25" ratio="14">&gt;NAME</text>
 <text x="-4.318" y="-1.524" size="1.27" layer="27" ratio="14" rot="R90">&gt;VALUE</text>
 <hole x="-0.6" y="2.9" drill="0.95"/>
 <hole x="3.8" y="2.9" drill="0.95"/>
+<wire x1="-1.397" y1="6.985" x2="-4.064" y2="6.985" width="0.1524" layer="21"/>
+<wire x1="-4.064" y1="6.985" x2="-4.064" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-4.064" y1="-1.524" x2="7.239" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="7.239" y1="-1.524" x2="7.239" y2="6.985" width="0.1524" layer="21"/>
+<wire x1="7.239" y1="6.985" x2="4.572" y2="6.985" width="0.1524" layer="21"/>
+<text x="-3.81" y="-2.794" size="1.016" layer="21" font="vector">&gt;NAME</text>
+<text x="-0.762" y="2.794" size="1.27" layer="51">&gt;NAME</text>
 </package>
 <package name="CRYSTAL">
 <wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.127" layer="51"/>
@@ -436,7 +455,7 @@ chip</description>
 <smd name="1" x="-1" y="0" dx="2" dy="0.7" layer="1" rot="R90"/>
 <smd name="2" x="0" y="0" dx="2" dy="0.7" layer="1" rot="R90"/>
 <smd name="3" x="1" y="0" dx="2" dy="0.7" layer="1" rot="R90"/>
-<text x="-1.45" y="1.35" size="0.3556" layer="25">&gt;NAME</text>
+<text x="-1.45" y="1.35" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.45" y="-1.688" size="0.3556" layer="27">&gt;VALUE</text>
 </package>
 <package name="DIODI_DO220AAL">
@@ -447,7 +466,7 @@ chip</description>
 <wire x1="-1" y1="1" x2="-1" y2="-1" width="0.4064" layer="21"/>
 <smd name="P$1" x="-0.7" y="0" dx="2.54" dy="2.667" layer="1" rot="R90"/>
 <smd name="P$2" x="1.65" y="0" dx="0.762" dy="1.27" layer="1" rot="R180"/>
-<text x="-2.54" y="1.27" size="1.27" layer="21">&gt;NAME</text>
+<text x="-2.54" y="1.27" size="1.016" layer="21" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="LM1117_SOT223">
@@ -472,7 +491,7 @@ chip</description>
 <text x="1.905" y="2.54" size="0.8128" layer="21" ratio="12">4</text>
 <text x="-3.4526" y="-4.318" size="0.8128" layer="21" ratio="12">1</text>
 <text x="-1.2906" y="-4.3274" size="0.8128" layer="21" ratio="12">2</text>
-<text x="-2.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="0.0508" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="LED_0805">
@@ -497,8 +516,13 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <rectangle x1="-0.625" y1="0.925" x2="-0.3" y2="1" layer="51"/>
 <smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
 <smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
-<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="0.381" y="1.905" size="1.016" layer="25" font="vector" rot="R90">&gt;NAME</text>
 <text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-0.635" y1="1.651" x2="-0.635" y2="-1.651" width="0.0762" layer="21"/>
+<wire x1="-0.635" y1="-1.651" x2="0.635" y2="-1.651" width="0.0762" layer="21"/>
+<wire x1="0.635" y1="-1.651" x2="0.635" y2="1.651" width="0.0762" layer="21"/>
+<wire x1="0.635" y1="1.651" x2="-0.635" y2="1.651" width="0.0762" layer="21"/>
+<wire x1="0.508" y1="1.27" x2="-0.508" y2="1.27" width="0.2032" layer="21"/>
 </package>
 <package name="R0603">
 <description>Resistor, Chip; 1.60 mm L X 0.80 mm W X 0.55 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;
@@ -515,7 +539,7 @@ edited to line up to 0.05mm grid per http://www.innofour.com/4003/news/literatur
 <circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
 <wire x1="0.35" y1="0" x2="-0.35" y2="0" width="0.05" layer="39"/>
 <wire x1="0" y1="0.35" x2="0" y2="-0.35" width="0.05" layer="39"/>
-<text x="1.778" y="0" size="1.524" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="2.54" y="0" size="1.016" layer="25" font="vector" align="center">&gt;NAME</text>
 <wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.00045" layer="57"/>
 <wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.00045" layer="57"/>
 <wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.00045" layer="57"/>
@@ -537,7 +561,7 @@ edited to line up to 0.05mm grid per http://www.innofour.com/4003/news/literatur
 <wire x1="1.016" y1="-1.27" x2="3.048" y2="-1.27" width="0.2032" layer="21"/>
 <smd name="1" x="0" y="0" dx="1.016" dy="1.9812" layer="1"/>
 <smd name="2" x="4.0005" y="0" dx="1.016" dy="1.9812" layer="1"/>
-<text x="0" y="1.524" size="0.6096" layer="25">&gt;NAME</text>
+<text x="0" y="1.524" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="0" y="-2.159" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="TQFP32-08">
@@ -628,7 +652,7 @@ edited to line up to 0.05mm grid per http://www.innofour.com/4003/news/literatur
 <pad name="GND" x="0" y="7.7" drill="2.9972"/>
 <pad name="GNDBREAK" x="4.7" y="10.7" drill="2.9972" rot="R90"/>
 <pad name="PWR" x="0" y="13.7" drill="2.9972"/>
-<text x="-3.81" y="5.08" size="0.4064" layer="25">&gt;NAME</text>
+<text x="6.35" y="5.08" size="1.016" layer="25" font="vector" rot="R90">&gt;NAME</text>
 <text x="-3.81" y="3.81" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="RESISTOR_PTH">
@@ -656,7 +680,7 @@ type 0207, grid 10 mm</description>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 <pad name="1" x="-5.08" y="0" drill="0.8128" shape="octagon"/>
 <pad name="2" x="5.08" y="0" drill="0.8128" shape="octagon"/>
-<text x="-3.048" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.048" y="1.524" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.2606" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="LED5MM">
@@ -673,7 +697,7 @@ type 0207, grid 10 mm</description>
 <wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90"/>
 <pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
 <pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.175" y="0.5334" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="BUZZER">
@@ -686,7 +710,7 @@ type 0207, grid 10 mm</description>
 <pad name="+" x="3.81" y="0" drill="1.016" diameter="2.159" shape="octagon"/>
 <pad name="-" x="-3.81" y="0" drill="1.016" diameter="2.159" shape="octagon"/>
 <text x="-3.81" y="-3.81" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="3.302" y="5.715" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.302" y="5.715" size="1.016" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="1X08">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -763,7 +787,7 @@ type 0207, grid 10 mm</description>
 <pad name="6" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="7" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="8" x="8.89" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-10.2362" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-10.2362" y="1.8288" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-10.16" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="1X06">
@@ -823,7 +847,7 @@ type 0207, grid 10 mm</description>
 <pad name="4" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="5" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="6" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-7.6962" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-7.6962" y="1.8288" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="MOUNT_HOLE">
@@ -869,7 +893,7 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <smd name="3" x="0.95" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
 <smd name="4" x="0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
 <smd name="5" x="-0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="1.905" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.905" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
