@@ -14,9 +14,9 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -44,7 +44,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -283,6 +283,8 @@ chip</description>
 <smd name="2" x="2.794" y="0" dx="1.1176" dy="1.778" layer="1"/>
 <text x="-0.6604" y="1.2954" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-0.6604" y="-1.651" size="0.6096" layer="27">&gt;VALUE</text>
+<text x="1.27" y="0" size="0.8128" layer="51" ratio="10" align="center">&gt;NAME</text>
+<wire x1="0.254" y1="0.762" x2="0.254" y2="-0.762" width="0.1524" layer="51"/>
 </package>
 <package name="DIODI_DO220AAL">
 <wire x1="-2" y1="-1.1" x2="2" y2="-1.1" width="0.127" layer="21"/>
@@ -294,6 +296,17 @@ chip</description>
 <smd name="P$2" x="1.65" y="0" dx="0.762" dy="1.27" layer="1" rot="R180"/>
 <text x="-2.54" y="1.27" size="1.016" layer="21" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-2.032" y1="1.143" x2="-2.032" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="-2.032" y1="-1.143" x2="-1.27" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="-1.143" x2="-1.143" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="-1.143" y1="-1.143" x2="2.032" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-1.143" x2="2.032" y2="1.143" width="0.127" layer="51"/>
+<wire x1="2.032" y1="1.143" x2="-1.143" y2="1.143" width="0.127" layer="51"/>
+<wire x1="-1.143" y1="1.143" x2="-1.27" y2="1.143" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="1.143" x2="-2.032" y2="1.143" width="0.127" layer="51"/>
+<wire x1="-1.143" y1="1.143" x2="-1.143" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="1.143" x2="-1.27" y2="-1.143" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.016" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="FUSE_0603">
 <circle x="0" y="0" radius="0.25" width="0.05" layer="39"/>
@@ -340,6 +353,11 @@ chip</description>
 <text x="-1.2906" y="-4.3274" size="0.8128" layer="21" ratio="12">2</text>
 <text x="-2.54" y="0.0508" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.302" y1="1.778" x2="-3.302" y2="-1.778" width="0.127" layer="51"/>
+<wire x1="-3.302" y1="-1.778" x2="3.302" y2="-1.778" width="0.127" layer="51"/>
+<wire x1="3.302" y1="-1.778" x2="3.302" y2="1.778" width="0.127" layer="51"/>
+<wire x1="3.302" y1="1.778" x2="-3.302" y2="1.778" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="VQFN32">
 <description>mlf-32</description>
@@ -390,6 +408,13 @@ chip</description>
 <vertex x="-1.27" y="0" curve="-90"/>
 </polygon>
 <wire x1="-2.794" y1="1.778" x2="-1.651" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="-2.1825" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.1825" y1="2.5" x2="-2.5" y2="2.1825" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2.1825" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.794" y1="1.778" x2="-1.651" y2="1.778" width="0.1524" layer="51"/>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="CONNECTOR_USB_MINI-B">
 <wire x1="-4.064" y1="-1.524" x2="-4.064" y2="6.985" width="0.127" layer="51"/>
@@ -446,12 +471,6 @@ chip</description>
 <wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.1524" layer="21"/>
 <wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="1.905" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
-<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
-<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
-<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
-<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
-<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
-<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
 <pad name="1" x="-2.54" y="-1.27" drill="1.016" diameter="1.55" shape="octagon"/>
 <pad name="2" x="-2.54" y="1.27" drill="1.016" diameter="1.55" shape="octagon"/>
 <pad name="3" x="0" y="-1.27" drill="1.016" diameter="1.55" shape="octagon"/>
@@ -460,27 +479,16 @@ chip</description>
 <pad name="6" x="2.54" y="1.27" drill="1.016" diameter="1.55" shape="octagon"/>
 <text x="-3.81" y="3.175" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-3.81" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.127" layer="51"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="2.54" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="LED_0805">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
-<circle x="-0.45" y="0.85" radius="0.103" width="0.1016" layer="51"/>
-<wire x1="-0.35" y1="0.925" x2="0.35" y2="0.925" width="0.1016" layer="51" curve="162.394521"/>
-<wire x1="-0.35" y1="-0.925" x2="0.35" y2="-0.925" width="0.1016" layer="51" curve="-162.394521"/>
-<wire x1="0.575" y1="0.525" x2="0.575" y2="-0.525" width="0.1016" layer="51"/>
-<wire x1="-0.575" y1="-0.5" x2="-0.575" y2="0.925" width="0.1016" layer="51"/>
-<rectangle x1="0.3" y1="0.5" x2="0.625" y2="1" layer="51"/>
-<rectangle x1="-0.325" y1="0.5" x2="-0.175" y2="0.75" layer="51"/>
-<rectangle x1="0.175" y1="0.5" x2="0.325" y2="0.75" layer="51"/>
-<rectangle x1="-0.2" y1="0.5" x2="0.2" y2="0.675" layer="51"/>
-<rectangle x1="0.3" y1="-1" x2="0.625" y2="-0.5" layer="51"/>
-<rectangle x1="-0.625" y1="-1" x2="-0.3" y2="-0.5" layer="51"/>
-<rectangle x1="0.175" y1="-0.75" x2="0.325" y2="-0.5" layer="51"/>
-<rectangle x1="-0.325" y1="-0.75" x2="-0.175" y2="-0.5" layer="51"/>
-<rectangle x1="-0.2" y1="-0.675" x2="0.2" y2="-0.5" layer="51"/>
 <rectangle x1="-0.1" y1="0" x2="0.1" y2="0.2" layer="21"/>
-<rectangle x1="-0.6" y1="0.5" x2="-0.3" y2="0.8" layer="51"/>
-<rectangle x1="-0.625" y1="0.925" x2="-0.3" y2="1" layer="51"/>
 <smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
 <smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
 <text x="0.381" y="1.905" size="1.016" layer="25" font="vector" rot="R90">&gt;NAME</text>
@@ -490,6 +498,17 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <wire x1="0.635" y1="-1.651" x2="0.635" y2="1.651" width="0.0762" layer="21"/>
 <wire x1="0.635" y1="1.651" x2="-0.635" y2="1.651" width="0.0762" layer="21"/>
 <wire x1="0.508" y1="1.27" x2="-0.508" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.651" x2="-0.635" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="1.27" x2="-0.635" y2="1.143" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="1.143" x2="-0.635" y2="-1.651" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="-1.651" x2="0.635" y2="-1.651" width="0.127" layer="51"/>
+<wire x1="0.635" y1="-1.651" x2="0.635" y2="1.143" width="0.127" layer="51"/>
+<wire x1="0.635" y1="1.27" x2="0.635" y2="1.651" width="0.127" layer="51"/>
+<wire x1="0.635" y1="1.651" x2="-0.635" y2="1.651" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.127" layer="51"/>
+<wire x1="0.635" y1="1.27" x2="0.635" y2="1.143" width="0.127" layer="51"/>
+<wire x1="0.635" y1="1.143" x2="-0.635" y2="1.143" width="0.127" layer="51"/>
+<text x="0" y="0" size="0.8128" layer="51" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="R0603">
 <description>Resistor, Chip; 1.60 mm L X 0.80 mm W X 0.55 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;
@@ -563,6 +582,12 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <wire x1="-4.826" y1="-1.778" x2="4.826" y2="-1.778" width="0.0762" layer="21"/>
 <wire x1="4.826" y1="-1.778" x2="4.826" y2="1.778" width="0.0762" layer="21"/>
 <wire x1="4.826" y1="1.778" x2="-4.826" y2="1.778" width="0.0762" layer="21"/>
+<polygon width="0.127" layer="51">
+<vertex x="-4.826" y="-0.635"/>
+<vertex x="-4.826" y="-1.905"/>
+<vertex x="-3.556" y="-1.905"/>
+</polygon>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="CRYSTAL">
 <wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.127" layer="51"/>
@@ -576,10 +601,10 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <smd name="3" x="1" y="0" dx="2" dy="0.7" layer="1" rot="R90"/>
 <text x="-1.45" y="1.35" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.45" y="-1.688" size="0.3556" layer="27">&gt;VALUE</text>
+<text x="0" y="0" size="1.016" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="SWITCHES_SMD_157SW">
 <circle x="2.032" y="0" radius="0.8131" width="0.2032" layer="21"/>
-<circle x="2.032" y="0" radius="0.8131" width="0.127" layer="51"/>
 <wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.127" layer="51"/>
 <wire x1="0" y1="1.27" x2="3.9878" y2="1.27" width="0.127" layer="51"/>
 <wire x1="3.9878" y1="1.27" x2="3.9878" y2="-1.27" width="0.127" layer="51"/>
@@ -590,12 +615,10 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <smd name="2" x="4.0005" y="0" dx="1.016" dy="1.9812" layer="1"/>
 <text x="0" y="1.524" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="0" y="-2.159" size="0.6096" layer="27">&gt;VALUE</text>
+<text x="2.032" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="POWER_JACK_PTH">
 <wire x1="4.5" y1="13.7" x2="2.4" y2="13.7" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="3" x2="-4.5" y2="0.1" width="0.2032" layer="51"/>
-<wire x1="4.5" y1="0.1" x2="4.5" y2="3" width="0.2032" layer="51"/>
-<wire x1="4.5" y1="0.1" x2="-4.5" y2="0.1" width="0.2032" layer="51"/>
 <wire x1="4.5" y1="3" x2="4.5" y2="8.3" width="0.2032" layer="21"/>
 <wire x1="4.5" y1="13.7" x2="4.5" y2="13" width="0.2032" layer="21"/>
 <wire x1="-4.5" y1="3" x2="-4.5" y2="13.7" width="0.2032" layer="21"/>
@@ -606,12 +629,17 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <pad name="PWR" x="0" y="13.7" drill="2.9972"/>
 <text x="6.35" y="5.08" size="1.016" layer="25" font="vector" rot="R90">&gt;NAME</text>
 <text x="-3.81" y="3.81" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="-4.572" y1="0.127" x2="-4.572" y2="13.716" width="0.127" layer="51"/>
+<wire x1="-4.572" y1="13.716" x2="-2.286" y2="13.716" width="0.127" layer="51"/>
+<wire x1="2.413" y1="13.716" x2="4.572" y2="13.716" width="0.127" layer="51"/>
+<wire x1="4.572" y1="13.716" x2="4.572" y2="12.954" width="0.127" layer="51"/>
+<wire x1="4.572" y1="8.382" x2="4.572" y2="0.127" width="0.127" layer="51"/>
+<wire x1="4.572" y1="0.127" x2="-4.572" y2="0.127" width="0.127" layer="51"/>
+<text x="0" y="6.35" size="1.27" layer="51" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="RESISTOR_PTH">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0207, grid 10 mm</description>
-<wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.6096" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.6096" layer="51"/>
 <wire x1="-3.175" y1="0.889" x2="-2.921" y2="1.143" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-3.175" y1="-0.889" x2="-2.921" y2="-1.143" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.921" y1="-1.143" x2="3.175" y2="-0.889" width="0.1524" layer="21" curve="90"/>
@@ -634,6 +662,11 @@ type 0207, grid 10 mm</description>
 <pad name="2" x="5.08" y="0" drill="0.8128" shape="octagon"/>
 <text x="-3.048" y="1.524" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.2606" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.127" layer="51"/>
+<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="LED5MM">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
@@ -641,16 +674,12 @@ type 0207, grid 10 mm</description>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205"/>
-<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90"/>
-<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90"/>
-<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90"/>
 <pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
 <pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
 <text x="3.175" y="0.5334" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<circle x="0" y="0" radius="3.175" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="BUZZER">
 <description>&lt;b&gt;BUZZER&lt;/b&gt;</description>
@@ -663,6 +692,11 @@ type 0207, grid 10 mm</description>
 <pad name="-" x="-3.81" y="0" drill="1.016" diameter="2.159" shape="octagon"/>
 <text x="-3.81" y="-3.81" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="3.302" y="5.715" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<circle x="0" y="0" radius="6.096" width="0.1524" layer="51"/>
+<circle x="3.81" y="2.54" radius="0.762" width="0.1524" layer="51"/>
+<wire x1="3.429" y1="2.54" x2="4.191" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="2.159" x2="3.81" y2="2.921" width="0.1524" layer="51"/>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="1X08">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -723,14 +757,6 @@ type 0207, grid 10 mm</description>
 <wire x1="8.255" y1="1.27" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="7.62" y1="-0.635" x2="8.255" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="9.525" y1="-1.27" x2="8.255" y2="-1.27" width="0.1524" layer="21"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
-<rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
-<rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
 <pad name="1" x="-8.89" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="2" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="3" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
@@ -741,6 +767,11 @@ type 0207, grid 10 mm</description>
 <pad name="8" x="8.89" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-10.2362" y="1.8288" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-10.16" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-10.16" y1="1.27" x2="-10.16" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-10.16" y1="-1.27" x2="10.16" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="10.16" y1="-1.27" x2="10.16" y2="1.27" width="0.127" layer="51"/>
+<wire x1="10.16" y1="1.27" x2="-10.16" y2="1.27" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="1X06">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -787,12 +818,6 @@ type 0207, grid 10 mm</description>
 <wire x1="5.715" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="-0.635" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="6.985" y1="-1.27" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
 <pad name="1" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="2" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="3" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
@@ -801,6 +826,11 @@ type 0207, grid 10 mm</description>
 <pad name="6" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-7.6962" y="1.8288" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-7.62" y1="1.27" x2="-7.62" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-7.62" y1="-1.27" x2="7.62" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="7.62" y1="-1.27" x2="7.62" y2="1.27" width="0.127" layer="51"/>
+<wire x1="7.62" y1="1.27" x2="-7.62" y2="1.27" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="MOUNT_HOLE">
 <hole x="0" y="0" drill="2.9"/>
@@ -825,9 +855,7 @@ type 0207, grid 10 mm</description>
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt; DBV (R-PDSO-G5)&lt;p&gt;
 Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <wire x1="1.422" y1="0.81" x2="1.422" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="1.422" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="51"/>
 <wire x1="-1.422" y1="-0.81" x2="-1.422" y2="0.81" width="0.1524" layer="21"/>
-<wire x1="-1.422" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="51"/>
 <wire x1="-0.522" y1="0.81" x2="0.522" y2="0.81" width="0.1524" layer="21"/>
 <wire x1="-0.428" y1="-0.81" x2="-0.522" y2="-0.81" width="0.1524" layer="21"/>
 <wire x1="0.522" y1="-0.81" x2="0.428" y2="-0.81" width="0.1524" layer="21"/>
@@ -847,6 +875,11 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <smd name="5" x="-0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
 <text x="-1.905" y="1.905" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.905" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.127" layer="51"/>
+<wire x1="1.524" y1="0.762" x2="-1.524" y2="0.762" width="0.127" layer="51"/>
+<wire x1="-1.524" y1="0.762" x2="-1.524" y2="-0.762" width="0.127" layer="51"/>
+<wire x1="-1.524" y1="-0.762" x2="1.524" y2="-0.762" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.016" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="BARNABAS_LOGO">
 <rectangle x1="1.479065625" y1="0.379990625" x2="1.538165625" y2="0.391809375" layer="21"/>
@@ -10657,7 +10690,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="47.498" y="43.769" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C15" library="barnabas_noggin_V4" package="C0603-ROUND" value="100nF" x="26.67" y="38.43" smashed="yes">
-<attribute name="NAME" x="25.581" y="36.592" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="26.67" y="38.43" size="0.8128" layer="51" ratio="10" align="center"/>
+<attribute name="NAME" x="25.581" y="36.492" size="1.016" layer="25" font="vector"/>
 <attribute name="PARTNO" value="CC0603ZRY5V9BB104" x="26.67" y="38.43" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="25.781" y="36.398" size="1.27" layer="27"/>
 </element>
@@ -10674,12 +10708,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="31.131" y="43.298" size="1.27" layer="27"/>
 </element>
 <element name="C3" library="barnabas_noggin_V4" package="TAN-A" value="4.7uF" x="58.53" y="42.01" smashed="yes">
-<attribute name="NAME" x="59.2696" y="43.0054" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="59.8" y="42.01" size="0.8128" layer="51" ratio="10" align="center"/>
+<attribute name="NAME" x="59.1696" y="43.0054" size="1.016" layer="25" font="vector"/>
 <attribute name="PARTNO" value="CL31A475KOHNNNE" x="58.53" y="42.01" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="57.8696" y="40.359" size="0.6096" layer="27"/>
 </element>
-<element name="C10" library="barnabas_noggin_V4" package="TAN-A" value="4.7uF" x="17.85" y="30.61">
+<element name="C10" library="barnabas_noggin_V4" package="TAN-A" value="4.7uF" x="17.85" y="30.61" smashed="yes">
+<attribute name="NAME" x="19.12" y="30.61" size="0.8128" layer="51" ratio="10" align="center"/>
+<attribute name="NAME" x="17.9896" y="31.6054" size="1.016" layer="25" font="vector"/>
 <attribute name="PARTNO" value="CL31A475KOHNNNE" x="17.85" y="30.61" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="17.1896" y="28.959" size="0.6096" layer="27"/>
 </element>
 <element name="C2" library="barnabas_noggin_V4" package="C0603-ROUND" value="1uF" x="60.01" y="37.03" smashed="yes">
 <attribute name="NAME" x="60.01" y="37.03" size="0.8128" layer="51" ratio="10" align="center"/>
@@ -10697,17 +10735,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PARTNO" value="CC0603ZRY5V9BB104" x="14.47" y="31.67" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D3" library="barnabas_noggin_V4" package="DIODI_DO220AAL" value="SS1P3L" x="19.26" y="27.21" smashed="yes" rot="R180">
-<attribute name="NAME" x="18.8" y="29.44" size="1.016" layer="21" font="vector" rot="R180"/>
+<attribute name="NAME" x="19.26" y="27.21" size="0.8128" layer="51" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="20" y="29.54" size="1.016" layer="21" font="vector" rot="R180"/>
 <attribute name="PARTNO" value="SS1P3L-M3/84A" x="19.26" y="27.21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="21.8" y="29.75" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U1" library="barnabas_noggin_V4" package="LM1117_SOT223" value="LM1117IMPX-5.0" x="27.08" y="16.59" smashed="yes" rot="R270">
-<attribute name="NAME" x="26.27" y="20.1308" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="27.08" y="16.59" size="1.27" layer="51" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="26.27" y="20.2308" size="1.016" layer="25" font="vector"/>
 <attribute name="PARTNO" value="LM1117IMPX-5.0/NOPB" x="27.08" y="16.59" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="25.7592" y="19.13" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U2" library="barnabas_noggin_V4" package="VQFN32" value="ATMEGA328P-32MUR" x="54.05" y="43.545" smashed="yes" rot="R180">
-<attribute name="NAME" x="55.05" y="40.645" size="1.016" layer="21" font="vector" rot="R180"/>
+<attribute name="NAME" x="54.05" y="43.545" size="1.27" layer="51" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="56.35" y="40.745" size="1.016" layer="21" font="vector" rot="R180"/>
 <attribute name="PARTNO" value="ATMEGA328P-MUR" x="54.05" y="43.545" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J4" library="barnabas_noggin_V4" package="CONNECTOR_USB_MINI-B" value="USB-mini-90 -SMD" x="15.29" y="38.98" smashed="yes" rot="R90">
@@ -10718,7 +10759,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="J5" library="barnabas_noggin_V4" package="CONNECTOR_2X3" value="ICSP" x="44.38" y="26.88" smashed="yes" rot="R270">
 <attribute name="CASE" value="" x="44.38" y="26.88" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="44.38" y="26.88" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="44.89" y="22.845" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="43.81" y="21.755" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="44.38" y="26.88" size="1.27" layer="51" ratio="10" rot="R270" align="center"/>
 <attribute name="PART_NUMBER" value="PH254-203DF118A00V" x="44.38" y="26.88" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="_____" x="44.38" y="26.88" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SUPPLIER" value="_____" x="44.38" y="26.88" size="1.778" layer="27" rot="R270" display="off"/>
@@ -10746,33 +10788,39 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PARTNO" value="LTST-C170KRKT" x="30.91" y="30.62" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="PB1" library="barnabas_noggin_V4" package="SWITCHES_SMD_157SW" value="157SW" x="37.805" y="28.9005" smashed="yes" rot="R270">
-<attribute name="NAME" x="39.429" y="28.3005" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="39.329" y="28.2005" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="37.805" y="26.8685" size="1.27" layer="51" ratio="10" rot="R270" align="center"/>
 <attribute name="VALUE" x="35.646" y="28.9005" size="0.6096" layer="27" rot="R270"/>
 </element>
 <element name="LED4" library="barnabas_noggin_V4" package="LED_0805" value="Green" x="30.91" y="28.25" rot="R270">
 <attribute name="PARTNO" value="LTST-C171GKT" x="30.91" y="28.25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U4" library="barnabas_noggin_V4" package="SOIC16" value="CH340G" x="26.51" y="45.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.25" y="51.34" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="27.25" y="51.14" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="26.51" y="45.12" size="1.27" layer="51" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="X1" library="barnabas_noggin_V4" package="CRYSTAL" value="16MHZ" x="59.93" y="45.79" smashed="yes" rot="R90">
-<attribute name="NAME" x="58.58" y="45.24" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="59.93" y="45.79" size="1.016" layer="51" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="58.88" y="44.84" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="PARTNO" value="CSTNE16M0V530000R0" x="59.93" y="45.79" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="61.618" y="44.34" size="0.3556" layer="27" rot="R90"/>
 </element>
 <element name="X2" library="barnabas_noggin_V4" package="CRYSTAL" value="12MHz" x="31.91" y="48.54" smashed="yes" rot="R270">
-<attribute name="NAME" x="31.21" y="50.36" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="31.91" y="48.54" size="1.016" layer="51" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="31.11" y="50.16" size="1.016" layer="25" font="vector"/>
 <attribute name="PARTNO" value="CSTNE12M0G550000R0" x="31.91" y="48.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="30.222" y="49.99" size="0.3556" layer="27" rot="R270"/>
 </element>
 <element name="D2" library="barnabas_noggin_V4" package="DIODI_DO220AAL" value="SS1P3L" x="19.31" y="23.55" smashed="yes" rot="R180">
-<attribute name="NAME" x="18.85" y="25.78" size="1.016" layer="21" font="vector" rot="R180"/>
+<attribute name="NAME" x="19.31" y="23.55" size="0.8128" layer="51" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="20.05" y="25.88" size="1.016" layer="21" font="vector" rot="R180"/>
 <attribute name="PARTNO" value="SS1P3L-M3/84A" x="19.31" y="23.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="21.85" y="26.09" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="J1" library="barnabas_noggin_V4" package="POWER_JACK_PTH" value="POWER_JACKPTH" x="4.91" y="16.54" rot="R270"/>
 <element name="D1" library="barnabas_noggin_V4" package="DIODI_DO220AAL" value="SS1P3L" x="23.71" y="11" smashed="yes" rot="R180">
-<attribute name="NAME" x="24.45" y="9.63" size="1.016" layer="21" font="vector" rot="R180"/>
+<attribute name="NAME" x="23.71" y="11" size="1.016" layer="51" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="24.55" y="9.63" size="1.016" layer="21" font="vector" rot="R180"/>
 <attribute name="PARTNO" value="SS1P3L-M3/84A" x="23.71" y="11" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="26.25" y="13.54" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -10783,21 +10831,25 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="27.891" y="9.018" size="1.27" layer="27"/>
 </element>
 <element name="R2" library="barnabas_noggin_V4" package="RESISTOR_PTH" value="4.7K" x="50.49" y="25.76" smashed="yes" rot="R270">
-<attribute name="NAME" x="51.814" y="26.408" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="52.014" y="26.508" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="50.49" y="25.76" size="1.27" layer="51" ratio="10" rot="R270" align="center"/>
 <attribute name="VALUE" x="49.855" y="28.0206" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="E1" library="barnabas_noggin_V4" package="LED5MM" value="LEDPTH" x="50.53" y="16.22" smashed="yes">
-<attribute name="NAME" x="54.3466" y="15.505" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="54.2466" y="15.705" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="50.53" y="16.22" size="1.27" layer="51" ratio="10" align="center"/>
 <attribute name="VALUE" x="53.7304" y="14.4166" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R3" library="barnabas_noggin_V4" package="RESISTOR_PTH" value="470" x="61.94" y="29.85" smashed="yes">
-<attribute name="NAME" x="61.292" y="31.174" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="61.292" y="31.274" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="61.94" y="29.85" size="1.27" layer="51" ratio="10" align="center"/>
 <attribute name="VALUE" x="59.6794" y="29.215" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="E2" library="barnabas_noggin_V4" package="BUZZER" value="BUZZER" x="62.38" y="19.07" smashed="yes">
 <attribute name="MF" value="" x="62.38" y="19.07" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="62.38" y="19.07" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="65.682" y="12.785" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="62.38" y="19.07" size="1.27" layer="51" ratio="10" align="center"/>
 <attribute name="OC_FARNELL" value="unknown" x="62.38" y="19.07" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="62.38" y="19.07" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.57" y="15.26" size="1.27" layer="27" ratio="10"/>
@@ -10805,7 +10857,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="J2" library="barnabas_noggin_V4" package="CONNECTOR_2X3" value="ICSP" x="65.95" y="45.97" smashed="yes" rot="R90">
 <attribute name="CASE" value="" x="65.95" y="45.97" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="65.95" y="45.97" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="66.44" y="50.975" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="66.54" y="51.075" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="65.95" y="45.97" size="1.27" layer="51" ratio="10" rot="R90" align="center"/>
 <attribute name="PART_NUMBER" value="PH254-203DF118A00V" x="65.95" y="45.97" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="_____" x="65.95" y="45.97" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="_____" x="65.95" y="45.97" size="1.778" layer="27" rot="R90" display="off"/>
@@ -10815,7 +10868,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="J3" library="barnabas_noggin_V4" package="CONNECTOR_2X3" value="ICSP" x="66" y="36.37" smashed="yes" rot="R90">
 <attribute name="CASE" value="" x="66" y="36.37" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MONTHLY_USAGE" value="_____" x="66" y="36.37" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="66.74" y="41.425" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="66.54" y="41.425" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="66" y="36.37" size="1.27" layer="51" ratio="10" rot="R90" align="center"/>
 <attribute name="PART_NUMBER" value="PH254-203DF118A00V" x="66" y="36.37" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="_____" x="66" y="36.37" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER" value="_____" x="66" y="36.37" size="1.778" layer="27" rot="R90" display="off"/>
@@ -10823,19 +10877,23 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="70.445" y="32.56" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="J8" library="barnabas_noggin_V4" package="1X08" value="2.54mm" x="52.89" y="58.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="63.4288" y="58.8262" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="63.3288" y="58.8262" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="52.89" y="58.3" size="1.27" layer="51" ratio="10" rot="R180" align="center"/>
 <attribute name="VALUE" x="63.05" y="61.475" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="J10" library="barnabas_noggin_V4" package="1X08" value="2.54mm" x="30.99" y="58.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="41.4288" y="59.3262" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="30.99" y="58.3" size="1.27" layer="51" ratio="10" rot="R180" align="center"/>
 <attribute name="VALUE" x="41.15" y="61.475" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="J7" library="barnabas_noggin_V4" package="1X06" value="2.54mm" x="55.15" y="10.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="63.0288" y="11.4462" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="63.0288" y="11.5462" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="55.15" y="10.9" size="1.27" layer="51" ratio="10" rot="R180" align="center"/>
 <attribute name="VALUE" x="62.77" y="14.075" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="J9" library="barnabas_noggin_V4" package="1X06" value="2.54mm" x="39.15" y="10.9" smashed="yes">
 <attribute name="NAME" x="31.3712" y="10.3538" size="1.016" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="39.15" y="10.9" size="1.27" layer="51" ratio="10" align="center"/>
 <attribute name="VALUE" x="31.53" y="7.725" size="1.27" layer="27"/>
 </element>
 <element name="C7" library="barnabas_noggin_V4" package="C0603-ROUND" value="100nF" x="14.47" y="23.62" smashed="yes" rot="R270">
@@ -10881,16 +10939,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PARTNO" value="MF-FSMF050X-2" x="33" y="19" size="1.778" layer="27" display="off"/>
 </element>
 <element name="PB2" library="barnabas_noggin_V4" package="SWITCHES_SMD_157SW" value="157SW" x="63.9" y="52.6" smashed="yes">
-<attribute name="NAME" x="64.7" y="54.224" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="64.7" y="54.024" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="65.932" y="52.6" size="1.27" layer="51" ratio="10" align="center"/>
 <attribute name="VALUE" x="63.9" y="50.441" size="0.6096" layer="27"/>
 </element>
 <element name="J6" library="barnabas_noggin_V4" package="1X06" value="2.54mm" x="20" y="44" smashed="yes" rot="R270">
-<attribute name="NAME" x="17.0288" y="51.0962" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="17.4288" y="51.4962" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="20" y="44" size="1.27" layer="51" ratio="10" rot="R270" align="center"/>
 <attribute name="VALUE" x="16.825" y="51.62" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U5" library="barnabas_noggin_V4" package="L9110S_DRIVER" value="L9110S_DRIVER" x="18.7" y="32.3" rot="MR90"/>
 <element name="U3" library="barnabas_noggin_V4" package="SOT23-DBV" value="LP2985-XXDBVR" x="37" y="17" smashed="yes" rot="R270">
-<attribute name="NAME" x="36.295" y="18.605" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="36.195" y="18.705" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="37" y="17" size="1.016" layer="51" ratio="10" rot="R270" align="center"/>
 <attribute name="VALUE" x="33.571" y="18.905" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C13" library="barnabas_noggin_V4" package="C0603-ROUND" value="1uF" x="42" y="17" smashed="yes">

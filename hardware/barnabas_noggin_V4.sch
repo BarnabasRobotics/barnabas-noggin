@@ -292,6 +292,13 @@ by exp-lbrs.ulp</description>
 <vertex x="-1.27" y="0" curve="-90"/>
 </polygon>
 <wire x1="-2.794" y1="1.778" x2="-1.651" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="-2.1825" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.1825" y1="2.5" x2="-2.5" y2="2.1825" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2.1825" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.794" y1="1.778" x2="-1.651" y2="1.778" width="0.1524" layer="51"/>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="SOIC16">
 <description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
@@ -339,6 +346,12 @@ Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
 <wire x1="-4.826" y1="-1.778" x2="4.826" y2="-1.778" width="0.0762" layer="21"/>
 <wire x1="4.826" y1="-1.778" x2="4.826" y2="1.778" width="0.0762" layer="21"/>
 <wire x1="4.826" y1="1.778" x2="-4.826" y2="1.778" width="0.0762" layer="21"/>
+<polygon width="0.127" layer="51">
+<vertex x="-4.826" y="-0.635"/>
+<vertex x="-4.826" y="-1.905"/>
+<vertex x="-3.556" y="-1.905"/>
+</polygon>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="C0603-ROUND">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -374,6 +387,8 @@ chip</description>
 <smd name="2" x="2.794" y="0" dx="1.1176" dy="1.778" layer="1"/>
 <text x="-0.6604" y="1.2954" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-0.6604" y="-1.651" size="0.6096" layer="27">&gt;VALUE</text>
+<text x="1.27" y="0" size="0.8128" layer="51" ratio="10" align="center">&gt;NAME</text>
+<wire x1="0.254" y1="0.762" x2="0.254" y2="-0.762" width="0.1524" layer="51"/>
 </package>
 <package name="CONNECTOR_2X3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -399,12 +414,6 @@ chip</description>
 <wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.1524" layer="21"/>
 <wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="1.905" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
-<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
-<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
-<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
-<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
-<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
-<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
 <pad name="1" x="-2.54" y="-1.27" drill="1.016" diameter="1.55" shape="octagon"/>
 <pad name="2" x="-2.54" y="1.27" drill="1.016" diameter="1.55" shape="octagon"/>
 <pad name="3" x="0" y="-1.27" drill="1.016" diameter="1.55" shape="octagon"/>
@@ -413,6 +422,11 @@ chip</description>
 <pad name="6" x="2.54" y="1.27" drill="1.016" diameter="1.55" shape="octagon"/>
 <text x="-3.81" y="3.175" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-3.81" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.127" layer="51"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="2.54" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="CONNECTOR_USB_MINI-B">
 <wire x1="-4.064" y1="-1.524" x2="-4.064" y2="6.985" width="0.127" layer="51"/>
@@ -457,6 +471,7 @@ chip</description>
 <smd name="3" x="1" y="0" dx="2" dy="0.7" layer="1" rot="R90"/>
 <text x="-1.45" y="1.35" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.45" y="-1.688" size="0.3556" layer="27">&gt;VALUE</text>
+<text x="0" y="0" size="1.016" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="DIODI_DO220AAL">
 <wire x1="-2" y1="-1.1" x2="2" y2="-1.1" width="0.127" layer="21"/>
@@ -468,6 +483,17 @@ chip</description>
 <smd name="P$2" x="1.65" y="0" dx="0.762" dy="1.27" layer="1" rot="R180"/>
 <text x="-2.54" y="1.27" size="1.016" layer="21" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-2.032" y1="1.143" x2="-2.032" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="-2.032" y1="-1.143" x2="-1.27" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="-1.143" x2="-1.143" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="-1.143" y1="-1.143" x2="2.032" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-1.143" x2="2.032" y2="1.143" width="0.127" layer="51"/>
+<wire x1="2.032" y1="1.143" x2="-1.143" y2="1.143" width="0.127" layer="51"/>
+<wire x1="-1.143" y1="1.143" x2="-1.27" y2="1.143" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="1.143" x2="-2.032" y2="1.143" width="0.127" layer="51"/>
+<wire x1="-1.143" y1="1.143" x2="-1.143" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="1.143" x2="-1.27" y2="-1.143" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.016" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="LM1117_SOT223">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
@@ -493,27 +519,16 @@ chip</description>
 <text x="-1.2906" y="-4.3274" size="0.8128" layer="21" ratio="12">2</text>
 <text x="-2.54" y="0.0508" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.302" y1="1.778" x2="-3.302" y2="-1.778" width="0.127" layer="51"/>
+<wire x1="-3.302" y1="-1.778" x2="3.302" y2="-1.778" width="0.127" layer="51"/>
+<wire x1="3.302" y1="-1.778" x2="3.302" y2="1.778" width="0.127" layer="51"/>
+<wire x1="3.302" y1="1.778" x2="-3.302" y2="1.778" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="LED_0805">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
-<circle x="-0.45" y="0.85" radius="0.103" width="0.1016" layer="51"/>
-<wire x1="-0.35" y1="0.925" x2="0.35" y2="0.925" width="0.1016" layer="51" curve="162.394521"/>
-<wire x1="-0.35" y1="-0.925" x2="0.35" y2="-0.925" width="0.1016" layer="51" curve="-162.394521"/>
-<wire x1="0.575" y1="0.525" x2="0.575" y2="-0.525" width="0.1016" layer="51"/>
-<wire x1="-0.575" y1="-0.5" x2="-0.575" y2="0.925" width="0.1016" layer="51"/>
-<rectangle x1="0.3" y1="0.5" x2="0.625" y2="1" layer="51"/>
-<rectangle x1="-0.325" y1="0.5" x2="-0.175" y2="0.75" layer="51"/>
-<rectangle x1="0.175" y1="0.5" x2="0.325" y2="0.75" layer="51"/>
-<rectangle x1="-0.2" y1="0.5" x2="0.2" y2="0.675" layer="51"/>
-<rectangle x1="0.3" y1="-1" x2="0.625" y2="-0.5" layer="51"/>
-<rectangle x1="-0.625" y1="-1" x2="-0.3" y2="-0.5" layer="51"/>
-<rectangle x1="0.175" y1="-0.75" x2="0.325" y2="-0.5" layer="51"/>
-<rectangle x1="-0.325" y1="-0.75" x2="-0.175" y2="-0.5" layer="51"/>
-<rectangle x1="-0.2" y1="-0.675" x2="0.2" y2="-0.5" layer="51"/>
 <rectangle x1="-0.1" y1="0" x2="0.1" y2="0.2" layer="21"/>
-<rectangle x1="-0.6" y1="0.5" x2="-0.3" y2="0.8" layer="51"/>
-<rectangle x1="-0.625" y1="0.925" x2="-0.3" y2="1" layer="51"/>
 <smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
 <smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
 <text x="0.381" y="1.905" size="1.016" layer="25" font="vector" rot="R90">&gt;NAME</text>
@@ -523,6 +538,17 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <wire x1="0.635" y1="-1.651" x2="0.635" y2="1.651" width="0.0762" layer="21"/>
 <wire x1="0.635" y1="1.651" x2="-0.635" y2="1.651" width="0.0762" layer="21"/>
 <wire x1="0.508" y1="1.27" x2="-0.508" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.651" x2="-0.635" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="1.27" x2="-0.635" y2="1.143" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="1.143" x2="-0.635" y2="-1.651" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="-1.651" x2="0.635" y2="-1.651" width="0.127" layer="51"/>
+<wire x1="0.635" y1="-1.651" x2="0.635" y2="1.143" width="0.127" layer="51"/>
+<wire x1="0.635" y1="1.27" x2="0.635" y2="1.651" width="0.127" layer="51"/>
+<wire x1="0.635" y1="1.651" x2="-0.635" y2="1.651" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.127" layer="51"/>
+<wire x1="0.635" y1="1.27" x2="0.635" y2="1.143" width="0.127" layer="51"/>
+<wire x1="0.635" y1="1.143" x2="-0.635" y2="1.143" width="0.127" layer="51"/>
+<text x="0" y="0" size="0.8128" layer="51" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="R0603">
 <description>Resistor, Chip; 1.60 mm L X 0.80 mm W X 0.55 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;
@@ -552,7 +578,6 @@ edited to line up to 0.05mm grid per http://www.innofour.com/4003/news/literatur
 </package>
 <package name="SWITCHES_SMD_157SW">
 <circle x="2.032" y="0" radius="0.8131" width="0.2032" layer="21"/>
-<circle x="2.032" y="0" radius="0.8131" width="0.127" layer="51"/>
 <wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.127" layer="51"/>
 <wire x1="0" y1="1.27" x2="3.9878" y2="1.27" width="0.127" layer="51"/>
 <wire x1="3.9878" y1="1.27" x2="3.9878" y2="-1.27" width="0.127" layer="51"/>
@@ -563,6 +588,7 @@ edited to line up to 0.05mm grid per http://www.innofour.com/4003/news/literatur
 <smd name="2" x="4.0005" y="0" dx="1.016" dy="1.9812" layer="1"/>
 <text x="0" y="1.524" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="0" y="-2.159" size="0.6096" layer="27">&gt;VALUE</text>
+<text x="2.032" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="TQFP32-08">
 <description>&lt;B&gt;Thin Plasic Quad Flat Package&lt;/B&gt; Grid 0.8 mm</description>
@@ -641,9 +667,6 @@ edited to line up to 0.05mm grid per http://www.innofour.com/4003/news/literatur
 </package>
 <package name="POWER_JACK_PTH">
 <wire x1="4.5" y1="13.7" x2="2.4" y2="13.7" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="3" x2="-4.5" y2="0.1" width="0.2032" layer="51"/>
-<wire x1="4.5" y1="0.1" x2="4.5" y2="3" width="0.2032" layer="51"/>
-<wire x1="4.5" y1="0.1" x2="-4.5" y2="0.1" width="0.2032" layer="51"/>
 <wire x1="4.5" y1="3" x2="4.5" y2="8.3" width="0.2032" layer="21"/>
 <wire x1="4.5" y1="13.7" x2="4.5" y2="13" width="0.2032" layer="21"/>
 <wire x1="-4.5" y1="3" x2="-4.5" y2="13.7" width="0.2032" layer="21"/>
@@ -654,12 +677,17 @@ edited to line up to 0.05mm grid per http://www.innofour.com/4003/news/literatur
 <pad name="PWR" x="0" y="13.7" drill="2.9972"/>
 <text x="6.35" y="5.08" size="1.016" layer="25" font="vector" rot="R90">&gt;NAME</text>
 <text x="-3.81" y="3.81" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="-4.572" y1="0.127" x2="-4.572" y2="13.716" width="0.127" layer="51"/>
+<wire x1="-4.572" y1="13.716" x2="-2.286" y2="13.716" width="0.127" layer="51"/>
+<wire x1="2.413" y1="13.716" x2="4.572" y2="13.716" width="0.127" layer="51"/>
+<wire x1="4.572" y1="13.716" x2="4.572" y2="12.954" width="0.127" layer="51"/>
+<wire x1="4.572" y1="8.382" x2="4.572" y2="0.127" width="0.127" layer="51"/>
+<wire x1="4.572" y1="0.127" x2="-4.572" y2="0.127" width="0.127" layer="51"/>
+<text x="0" y="6.35" size="1.27" layer="51" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="RESISTOR_PTH">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0207, grid 10 mm</description>
-<wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.6096" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.6096" layer="51"/>
 <wire x1="-3.175" y1="0.889" x2="-2.921" y2="1.143" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-3.175" y1="-0.889" x2="-2.921" y2="-1.143" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.921" y1="-1.143" x2="3.175" y2="-0.889" width="0.1524" layer="21" curve="90"/>
@@ -682,6 +710,11 @@ type 0207, grid 10 mm</description>
 <pad name="2" x="5.08" y="0" drill="0.8128" shape="octagon"/>
 <text x="-3.048" y="1.524" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.2606" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="-1.27" x2="3.81" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.127" layer="51"/>
+<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="LED5MM">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
@@ -689,16 +722,12 @@ type 0207, grid 10 mm</description>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205"/>
-<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90"/>
-<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90"/>
-<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90"/>
 <pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
 <pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
 <text x="3.175" y="0.5334" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<circle x="0" y="0" radius="3.175" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="BUZZER">
 <description>&lt;b&gt;BUZZER&lt;/b&gt;</description>
@@ -711,6 +740,11 @@ type 0207, grid 10 mm</description>
 <pad name="-" x="-3.81" y="0" drill="1.016" diameter="2.159" shape="octagon"/>
 <text x="-3.81" y="-3.81" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="3.302" y="5.715" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<circle x="0" y="0" radius="6.096" width="0.1524" layer="51"/>
+<circle x="3.81" y="2.54" radius="0.762" width="0.1524" layer="51"/>
+<wire x1="3.429" y1="2.54" x2="4.191" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="2.159" x2="3.81" y2="2.921" width="0.1524" layer="51"/>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="1X08">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -771,14 +805,6 @@ type 0207, grid 10 mm</description>
 <wire x1="8.255" y1="1.27" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="7.62" y1="-0.635" x2="8.255" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="9.525" y1="-1.27" x2="8.255" y2="-1.27" width="0.1524" layer="21"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
-<rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
-<rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
 <pad name="1" x="-8.89" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="2" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="3" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
@@ -789,6 +815,11 @@ type 0207, grid 10 mm</description>
 <pad name="8" x="8.89" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-10.2362" y="1.8288" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-10.16" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-10.16" y1="1.27" x2="-10.16" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-10.16" y1="-1.27" x2="10.16" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="10.16" y1="-1.27" x2="10.16" y2="1.27" width="0.127" layer="51"/>
+<wire x1="10.16" y1="1.27" x2="-10.16" y2="1.27" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="1X06">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -835,12 +866,6 @@ type 0207, grid 10 mm</description>
 <wire x1="5.715" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="-0.635" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="6.985" y1="-1.27" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
 <pad name="1" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="2" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="3" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
@@ -849,6 +874,11 @@ type 0207, grid 10 mm</description>
 <pad name="6" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-7.6962" y="1.8288" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-7.62" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-7.62" y1="1.27" x2="-7.62" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-7.62" y1="-1.27" x2="7.62" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="7.62" y1="-1.27" x2="7.62" y2="1.27" width="0.127" layer="51"/>
+<wire x1="7.62" y1="1.27" x2="-7.62" y2="1.27" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.27" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="MOUNT_HOLE">
 <hole x="0" y="0" drill="2.9"/>
@@ -873,9 +903,7 @@ type 0207, grid 10 mm</description>
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt; DBV (R-PDSO-G5)&lt;p&gt;
 Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <wire x1="1.422" y1="0.81" x2="1.422" y2="-0.81" width="0.1524" layer="21"/>
-<wire x1="1.422" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="51"/>
 <wire x1="-1.422" y1="-0.81" x2="-1.422" y2="0.81" width="0.1524" layer="21"/>
-<wire x1="-1.422" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="51"/>
 <wire x1="-0.522" y1="0.81" x2="0.522" y2="0.81" width="0.1524" layer="21"/>
 <wire x1="-0.428" y1="-0.81" x2="-0.522" y2="-0.81" width="0.1524" layer="21"/>
 <wire x1="0.522" y1="-0.81" x2="0.428" y2="-0.81" width="0.1524" layer="21"/>
@@ -895,6 +923,11 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <smd name="5" x="-0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
 <text x="-1.905" y="1.905" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.905" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.127" layer="51"/>
+<wire x1="1.524" y1="0.762" x2="-1.524" y2="0.762" width="0.127" layer="51"/>
+<wire x1="-1.524" y1="0.762" x2="-1.524" y2="-0.762" width="0.127" layer="51"/>
+<wire x1="-1.524" y1="-0.762" x2="1.524" y2="-0.762" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.016" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
