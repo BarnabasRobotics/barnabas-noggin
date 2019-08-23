@@ -884,20 +884,20 @@ type 0207, grid 10 mm</description>
 <hole x="0" y="0" drill="2.9"/>
 </package>
 <package name="L9110S_DRIVER">
-<wire x1="0" y1="0" x2="4.1" y2="0" width="0.1524" layer="21"/>
-<wire x1="4.1" y1="0" x2="19.4" y2="0" width="0.1524" layer="21"/>
-<wire x1="19.4" y1="0" x2="23.5" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="22" width="0.1524" layer="21"/>
-<wire x1="0" y1="22" x2="0" y2="29" width="0.1524" layer="21"/>
-<wire x1="0" y1="29" x2="23.5" y2="29" width="0.1524" layer="21"/>
-<wire x1="23.5" y1="29" x2="23.5" y2="22" width="0.1524" layer="21"/>
-<wire x1="23.5" y1="22" x2="23.5" y2="0" width="0.1524" layer="21"/>
-<wire x1="4.13" y1="2.54" x2="19.37" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="4.1" y1="2.5" x2="4.1" y2="0" width="0.1524" layer="21"/>
-<wire x1="19.4" y1="2.5" x2="19.4" y2="0" width="0.1524" layer="21"/>
-<text x="-1.27" y="10.16" size="1.778" layer="21" rot="R90">&gt;NAME</text>
+<wire x1="0" y1="0" x2="4.1" y2="0" width="0.1524" layer="51"/>
+<wire x1="4.1" y1="0" x2="19.4" y2="0" width="0.1524" layer="51"/>
+<wire x1="19.4" y1="0" x2="23.5" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="22" width="0.1524" layer="51"/>
+<wire x1="0" y1="22" x2="0" y2="29" width="0.1524" layer="51"/>
+<wire x1="0" y1="29" x2="23.5" y2="29" width="0.1524" layer="51"/>
+<wire x1="23.5" y1="29" x2="23.5" y2="22" width="0.1524" layer="51"/>
+<wire x1="23.5" y1="22" x2="23.5" y2="0" width="0.1524" layer="51"/>
+<wire x1="4.13" y1="2.54" x2="19.37" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="4.1" y1="2.5" x2="4.1" y2="0" width="0.1524" layer="51"/>
+<wire x1="19.4" y1="2.5" x2="19.4" y2="0" width="0.1524" layer="51"/>
+<text x="-1.27" y="10.16" size="1.778" layer="51" rot="R90">&gt;NAME</text>
 <text x="26.416" y="10.033" size="1.778" layer="21" rot="R90">&gt;VALUE</text>
-<wire x1="0" y1="22" x2="23.5" y2="22" width="0.1524" layer="21"/>
+<wire x1="0" y1="22" x2="23.5" y2="22" width="0.1524" layer="51"/>
 </package>
 <package name="SOT23-DBV">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt; DBV (R-PDSO-G5)&lt;p&gt;
