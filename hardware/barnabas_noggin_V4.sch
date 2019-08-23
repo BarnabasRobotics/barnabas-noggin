@@ -1550,15 +1550,7 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <connect gate="A" pin="6" pad="6"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="CASE" value=""/>
-<attribute name="MONTHLY_USAGE" value="_____"/>
-<attribute name="PART_NUMBER" value="PH254-203DF118A00V"/>
-<attribute name="PRICE" value="_____"/>
-<attribute name="SUPPLIER" value="_____"/>
-<attribute name="TYPE" value="Connettori"/>
-<attribute name="VALUE" value="ICSP"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1978,7 +1970,9 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <part name="U$10" library="barnabas_noggin_V4" deviceset="GND" device=""/>
 <part name="U$13" library="barnabas_noggin_V4" deviceset="GND" device=""/>
 <part name="U$16" library="barnabas_noggin_V4" deviceset="GND" device=""/>
-<part name="PB1" library="barnabas_noggin_V4" deviceset="PUSHBUTTON" device="" value="157SW"/>
+<part name="PB1" library="barnabas_noggin_V4" deviceset="PUSHBUTTON" device="" value="157SW">
+<attribute name="PARTNO" value="PTS820 J15M SMTR LFS"/>
+</part>
 <part name="U$28" library="barnabas_noggin_V4" deviceset="GND" device=""/>
 <part name="U$31" library="barnabas_noggin_V4" deviceset="5V" device=""/>
 <part name="U$34" library="barnabas_noggin_V4" deviceset="GND" device=""/>
@@ -2039,7 +2033,9 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <attribute name="PARTNO" value="CSTNE12M0G550000R0"/>
 </part>
 <part name="U$3" library="barnabas_noggin_V4" deviceset="GND" device=""/>
-<part name="J4" library="barnabas_noggin_V4" deviceset="CONNECTOR_USB_MINI-B" device="" value="USB-mini-90 -SMD"/>
+<part name="J4" library="barnabas_noggin_V4" deviceset="CONNECTOR_USB_MINI-B" device="" value="USB-mini-90 -SMD">
+<attribute name="PARTNO" value="UJ2-MBH-1-SMT-TR"/>
+</part>
 <part name="U$6" library="barnabas_noggin_V4" deviceset="GND" device=""/>
 <part name="U$7" library="barnabas_noggin_V4" deviceset="GND" device=""/>
 <part name="C12" library="barnabas_noggin_V4" deviceset="CAPACITOR_100NF_0603" device="" value="100nF">
@@ -2052,7 +2048,9 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 </part>
 <part name="U$5" library="barnabas_noggin_V4" deviceset="GND" device=""/>
 <part name="U$12" library="barnabas_noggin_V4" deviceset="5V_PIN" device=""/>
-<part name="J5" library="barnabas_noggin_V4" deviceset="CONNECTOR_2X3" device="" value="ICSP"/>
+<part name="J5" library="barnabas_noggin_V4" deviceset="CONNECTOR_2X3" device="" value="ICSP">
+<attribute name="PARTNO" value="M20-9980346"/>
+</part>
 <part name="R1" library="barnabas_noggin_V4" deviceset="RESISTOR" device="0603" value="1K">
 <attribute name="PARTNO" value="RC0603FR-071KL "/>
 </part>
@@ -2066,7 +2064,9 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <attribute name="PARTNO" value="SS1P3L-M3/84A"/>
 </part>
 <part name="U$8" library="barnabas_noggin_V4" deviceset="5V_PIN" device=""/>
-<part name="J1" library="barnabas_noggin_V4" deviceset="POWER_JACK" device="PTH"/>
+<part name="J1" library="barnabas_noggin_V4" deviceset="POWER_JACK" device="PTH">
+<attribute name="PARTNO" value="EJ508A"/>
+</part>
 <part name="D1" library="barnabas_noggin_V4" deviceset="SCHOTTKY_DIODE" device="" value="SS1P3L">
 <attribute name="PARTNO" value="SS1P3L-M3/84A"/>
 </part>
@@ -2080,12 +2080,24 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <part name="U$22" library="barnabas_noggin_V4" deviceset="GND" device=""/>
 <part name="R3" library="barnabas_noggin_V4" deviceset="RESISTOR" device="" value="470"/>
 <part name="E2" library="barnabas_noggin_V4" deviceset="BUZZER" device=""/>
-<part name="J2" library="barnabas_noggin_V4" deviceset="CONNECTOR_2X3" device="" value="ICSP"/>
-<part name="J3" library="barnabas_noggin_V4" deviceset="CONNECTOR_2X3" device="" value="ICSP"/>
-<part name="J8" library="barnabas_noggin_V4" deviceset="PINHD-1X8" device="" value="2.54mm"/>
-<part name="J10" library="barnabas_noggin_V4" deviceset="PINHD-1X8" device="" value="2.54mm"/>
-<part name="J7" library="barnabas_noggin_V4" deviceset="PINHD-1X6" device="" value="2.54mm"/>
-<part name="J9" library="barnabas_noggin_V4" deviceset="PINHD-1X6" device="" value="2.54mm"/>
+<part name="J2" library="barnabas_noggin_V4" deviceset="CONNECTOR_2X3" device="" value="ICSP">
+<attribute name="PARTNO" value="M20-9980346"/>
+</part>
+<part name="J3" library="barnabas_noggin_V4" deviceset="CONNECTOR_2X3" device="" value="ICSP">
+<attribute name="PARTNO" value="M20-9980346"/>
+</part>
+<part name="J8" library="barnabas_noggin_V4" deviceset="PINHD-1X8" device="" value="2.54mm">
+<attribute name="PARTNO" value="PPTC081LFBN-RC"/>
+</part>
+<part name="J10" library="barnabas_noggin_V4" deviceset="PINHD-1X8" device="" value="2.54mm">
+<attribute name="PARTNO" value="PPTC081LFBN-RC"/>
+</part>
+<part name="J7" library="barnabas_noggin_V4" deviceset="PINHD-1X6" device="" value="2.54mm">
+<attribute name="PARTNO" value="M20-7820646"/>
+</part>
+<part name="J9" library="barnabas_noggin_V4" deviceset="PINHD-1X6" device="" value="2.54mm">
+<attribute name="PARTNO" value="M20-7820646"/>
+</part>
 <part name="C7" library="barnabas_noggin_V4" deviceset="CAPACITOR_100NF_0603" device="" value="100nF">
 <attribute name="PARTNO" value="CC0603ZRY5V9BB104"/>
 </part>
@@ -2126,15 +2138,21 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <part name="F1" library="barnabas_noggin_V4" deviceset="FUSE_6V" device="" value="FUSE_6V">
 <attribute name="PARTNO" value="MF-FSMF050X-2"/>
 </part>
-<part name="PB2" library="barnabas_noggin_V4" deviceset="PUSHBUTTON" device="" value="157SW"/>
+<part name="PB2" library="barnabas_noggin_V4" deviceset="PUSHBUTTON" device="" value="157SW">
+<attribute name="PARTNO" value="PTS820 J15M SMTR LFS"/>
+</part>
 <part name="U$40" library="barnabas_noggin_V4" deviceset="GND" device=""/>
-<part name="J6" library="barnabas_noggin_V4" deviceset="PINHD-1X6" device="" value="2.54mm"/>
+<part name="J6" library="barnabas_noggin_V4" deviceset="PINHD-1X6" device="" value="2.54mm">
+<attribute name="PARTNO" value="M20-7820646"/>
+</part>
 <part name="U5" library="barnabas_noggin_V4" deviceset="L9110S_DRIVER" device=""/>
 <part name="U$1" library="barnabas_noggin_V4" deviceset="5V_PIN" device=""/>
 <part name="U$41" library="barnabas_noggin_V4" deviceset="GND" device=""/>
 <part name="U$42" library="barnabas_noggin_V4" deviceset="5V" device=""/>
 <part name="U$43" library="barnabas_noggin_V4" deviceset="5V" device=""/>
-<part name="U3" library="barnabas_noggin_V4" deviceset="LP2985-XXDBVR" device=""/>
+<part name="U3" library="barnabas_noggin_V4" deviceset="LP2985-XXDBVR" device="">
+<attribute name="PARTNO" value="LP2985-33DBVR"/>
+</part>
 <part name="U$44" library="barnabas_noggin_V4" deviceset="GND" device=""/>
 <part name="U$45" library="barnabas_noggin_V4" deviceset="GND" device=""/>
 <part name="C13" library="barnabas_noggin_V4" deviceset="CAPACITOR_1UF_0603" device="" value="1uF">
@@ -2176,7 +2194,9 @@ LED and Buzzer</text>
 <instance part="U$10" gate="G$1" x="5.08" y="134.62"/>
 <instance part="U$13" gate="G$1" x="33.02" y="154.94"/>
 <instance part="U$16" gate="G$1" x="35.56" y="111.76"/>
-<instance part="PB1" gate="G$1" x="27.94" y="170.18"/>
+<instance part="PB1" gate="G$1" x="27.94" y="170.18">
+<attribute name="PARTNO" x="27.94" y="170.18" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$28" gate="G$1" x="10.16" y="165.1"/>
 <instance part="U$31" gate="G$1" x="48.26" y="190.5"/>
 <instance part="U$34" gate="G$1" x="147.32" y="134.62"/>
@@ -2238,7 +2258,9 @@ LED and Buzzer</text>
 <attribute name="PARTNO" x="226.06" y="132.08" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="U$3" gate="G$1" x="218.44" y="114.3"/>
-<instance part="J4" gate="G$1" x="198.374" y="139.7" rot="MR0"/>
+<instance part="J4" gate="G$1" x="198.374" y="139.7" rot="MR0">
+<attribute name="PARTNO" x="198.374" y="139.7" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="U$6" gate="G$1" x="211.074" y="114.3"/>
 <instance part="U$7" gate="G$1" x="182.88" y="114.3"/>
 <instance part="C12" gate="G$1" x="172.72" y="139.7">
@@ -2251,7 +2273,9 @@ LED and Buzzer</text>
 </instance>
 <instance part="U$5" gate="G$1" x="222.25" y="16.51"/>
 <instance part="U$12" gate="G$1" x="222.25" y="36.83"/>
-<instance part="J5" gate="A" x="209.55" y="26.67"/>
+<instance part="J5" gate="A" x="209.55" y="26.67">
+<attribute name="PARTNO" x="209.55" y="26.67" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R1" gate="G$1" x="48.26" y="180.34" rot="R90">
 <attribute name="PARTNO" x="48.26" y="180.34" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -2265,7 +2289,9 @@ LED and Buzzer</text>
 <attribute name="PARTNO" x="80.01" y="64.77" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$8" gate="G$1" x="100.584" y="85.09"/>
-<instance part="J1" gate="G$1" x="17.78" y="27.94"/>
+<instance part="J1" gate="G$1" x="17.78" y="27.94">
+<attribute name="PARTNO" x="17.78" y="27.94" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="D1" gate="G$1" x="28.956" y="35.56">
 <attribute name="PARTNO" x="28.956" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
@@ -2279,12 +2305,24 @@ LED and Buzzer</text>
 <instance part="U$22" gate="G$1" x="106.68" y="8.89"/>
 <instance part="R3" gate="G$1" x="81.28" y="17.78"/>
 <instance part="E2" gate="1" x="93.98" y="20.32"/>
-<instance part="J2" gate="A" x="144.78" y="30.48"/>
-<instance part="J3" gate="A" x="144.78" y="15.24"/>
-<instance part="J8" gate="A" x="317.5" y="154.94"/>
-<instance part="J10" gate="A" x="335.28" y="154.94"/>
-<instance part="J7" gate="A" x="314.96" y="127"/>
-<instance part="J9" gate="A" x="328.93" y="127.254"/>
+<instance part="J2" gate="A" x="144.78" y="30.48">
+<attribute name="PARTNO" x="144.78" y="30.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J3" gate="A" x="144.78" y="15.24">
+<attribute name="PARTNO" x="144.78" y="15.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J8" gate="A" x="317.5" y="154.94">
+<attribute name="PARTNO" x="317.5" y="154.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J10" gate="A" x="335.28" y="154.94">
+<attribute name="PARTNO" x="335.28" y="154.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J7" gate="A" x="314.96" y="127">
+<attribute name="PARTNO" x="314.96" y="127" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J9" gate="A" x="328.93" y="127.254">
+<attribute name="PARTNO" x="328.93" y="127.254" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C7" gate="G$1" x="134.62" y="76.2">
 <attribute name="PARTNO" x="134.62" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
@@ -2326,15 +2364,21 @@ LED and Buzzer</text>
 <attribute name="NAME" x="104.6226" y="74.93" size="1.778" layer="95" rot="R270"/>
 <attribute name="PARTNO" x="100.584" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PB2" gate="G$1" x="134.112" y="121.92"/>
+<instance part="PB2" gate="G$1" x="134.112" y="121.92">
+<attribute name="PARTNO" x="134.112" y="121.92" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$40" gate="G$1" x="147.32" y="114.3"/>
-<instance part="J6" gate="A" x="284.48" y="72.39"/>
+<instance part="J6" gate="A" x="284.48" y="72.39">
+<attribute name="PARTNO" x="284.48" y="72.39" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U5" gate="G$1" x="294.64" y="63.5"/>
 <instance part="U$1" gate="G$1" x="264.16" y="86.36"/>
 <instance part="U$41" gate="G$1" x="264.16" y="63.5"/>
 <instance part="U$42" gate="G$1" x="90.17" y="85.09"/>
 <instance part="U$43" gate="G$1" x="187.96" y="86.36"/>
-<instance part="U3" gate="G$1" x="205.74" y="76.2"/>
+<instance part="U3" gate="G$1" x="205.74" y="76.2">
+<attribute name="PARTNO" x="205.74" y="76.2" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$44" gate="G$1" x="187.96" y="63.5"/>
 <instance part="U$45" gate="G$1" x="226.06" y="63.5"/>
 <instance part="C13" gate="G$1" x="226.06" y="74.93">
