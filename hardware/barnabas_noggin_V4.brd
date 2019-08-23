@@ -246,6 +246,7 @@
 <text x="62.8" y="54.2" size="1.15" layer="21" font="vector" ratio="18">BUTTON2</text>
 <text x="40.7" y="24.8" size="1.15" layer="21" font="vector" ratio="18" rot="R90">RESET</text>
 <text x="14" y="56" size="1.15" layer="21" font="vector" ratio="18">#5.2</text>
+<text x="43.9" y="30.8" size="1.778" layer="21" rot="R90">1</text>
 </plain>
 <libraries>
 <library name="barnabas_noggin_V4">
@@ -14509,8 +14510,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="E2" library="barnabas_noggin_V4" package="BUZZER" value="BUZZER" x="62.38" y="20.07" smashed="yes">
 <attribute name="MF" value="" x="62.38" y="20.07" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="62.38" y="20.07" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="61.482" y="26.485" size="1.016" layer="25" font="vector"/>
 <attribute name="NAME" x="62.38" y="20.07" size="1.27" layer="51" ratio="10" align="center"/>
+<attribute name="NAME" x="61.482" y="26.485" size="1.016" layer="25" font="vector"/>
 <attribute name="OC_FARNELL" value="unknown" x="62.38" y="20.07" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="62.38" y="20.07" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.57" y="16.26" size="1.27" layer="27" ratio="10"/>
