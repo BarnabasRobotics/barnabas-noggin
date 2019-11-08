@@ -1402,14 +1402,7 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <connect gate="G$1" pin="VCC@2" pad="6"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="DATASHEET" value="http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf"/>
-<attribute name="DISTRIBUTOR-LINK" value="https://www.digikey.it/product-detail/it/microchip-technology/ATMEGA328P-AU/ATMEGA328P-AU-ND/1832260"/>
-<attribute name="DISTRIBUTOR-PN" value="ATMEGA328P-AU-ND"/>
-<attribute name="MANUFACTURER" value="ATMEL"/>
-<attribute name="MANUFACTURER-PN" value="ATMEGA328P-AU"/>
-<attribute name="VALUE" value="ATMEGA328P-AU"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="MUR" package="VQFN32">
@@ -1985,8 +1978,8 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <part name="LED2" library="barnabas_noggin_V4" deviceset="LED_YELLOW" device="" value="Yellow">
 <attribute name="PARTNO" value="LTST-C171KSKT"/>
 </part>
-<part name="U2" library="barnabas_noggin_V4" deviceset="ATMEGA328P-32" device="MUR" value="ATMEGA328P-32MUR">
-<attribute name="PARTNO" value="ATMEGA328P-MUR"/>
+<part name="U2" library="barnabas_noggin_V4" deviceset="ATMEGA328P-32" device="AU" value="ATMEGA328P-AU">
+<attribute name="PARTNO" value="ATMEGA328P-AU"/>
 </part>
 <part name="U$52" library="barnabas_noggin_V4" deviceset="GND" device=""/>
 <part name="U$55" library="barnabas_noggin_V4" deviceset="5V" device=""/>
