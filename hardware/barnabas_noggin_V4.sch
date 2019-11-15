@@ -2157,6 +2157,10 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <part name="F3" library="barnabas_noggin_V4" deviceset="FUSE_6V" device="" value="FUSE_6V">
 <attribute name="PARTNO" value="MF-FSMF050X-2"/>
 </part>
+<part name="R10" library="barnabas_noggin_V4" deviceset="RESISTOR" device="0603" value="1K">
+<attribute name="PARTNO" value="RC0603FR-071KL "/>
+</part>
+<part name="U$46" library="barnabas_noggin_V4" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2357,10 +2361,10 @@ LED and Buzzer</text>
 <attribute name="NAME" x="104.6226" y="74.93" size="1.778" layer="95" rot="R270"/>
 <attribute name="PARTNO" x="100.584" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PB2" gate="G$1" x="134.112" y="121.92">
-<attribute name="PARTNO" x="134.112" y="121.92" size="1.778" layer="96" display="off"/>
+<instance part="PB2" gate="G$1" x="144.272" y="121.92">
+<attribute name="PARTNO" x="144.272" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$40" gate="G$1" x="147.32" y="114.3"/>
+<instance part="U$40" gate="G$1" x="154.94" y="114.3"/>
 <instance part="J6" gate="A" x="284.48" y="72.39">
 <attribute name="PARTNO" x="284.48" y="72.39" size="1.778" layer="96" display="off"/>
 </instance>
@@ -2385,6 +2389,10 @@ LED and Buzzer</text>
 <attribute name="NAME" x="234.95" y="85.3186" size="1.778" layer="95"/>
 <attribute name="PARTNO" x="236.22" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
+<instance part="R10" gate="G$1" x="132.08" y="137.16" rot="R90">
+<attribute name="PARTNO" x="132.08" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="U$46" gate="G$1" x="132.08" y="149.86"/>
 </instances>
 <busses>
 </busses>
@@ -2433,11 +2441,13 @@ LED and Buzzer</text>
 <net name="D2" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PD2(INT0)"/>
-<wire x1="109.22" y1="121.92" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
 <label x="116.84" y="121.92" size="1.778" layer="95"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="132.08" x2="132.08" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="PB2" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="121.92" x2="119.38" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="126.492" y1="121.92" x2="119.38" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="136.652" y1="121.92" x2="132.08" y2="121.92" width="0.1524" layer="91"/>
+<junction x="132.08" y="121.92"/>
 </segment>
 <segment>
 <pinref part="J8" gate="A" pin="3"/>
@@ -3133,12 +3143,6 @@ LED and Buzzer</text>
 <wire x1="122.428" y1="62.992" x2="122.428" y2="60.452" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="PB2" gate="G$1" pin="2"/>
-<pinref part="U$40" gate="G$1" pin="GND"/>
-<wire x1="141.732" y1="121.92" x2="147.32" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="121.92" x2="147.32" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$41" gate="G$1" pin="GND"/>
 <wire x1="264.16" y1="66.04" x2="264.16" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="72.39" x2="264.16" y2="72.39" width="0.1524" layer="91"/>
@@ -3154,6 +3158,12 @@ LED and Buzzer</text>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="U$45" gate="G$1" pin="GND"/>
 <wire x1="226.06" y1="69.85" x2="226.06" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$40" gate="G$1" pin="GND"/>
+<pinref part="PB2" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="116.84" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="121.92" x2="151.892" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -3279,6 +3289,11 @@ LED and Buzzer</text>
 <wire x1="195.58" y1="76.2" x2="192.024" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="192.024" y1="76.2" x2="192.024" y2="81.28" width="0.1524" layer="91"/>
 <junction x="192.024" y="81.28"/>
+</segment>
+<segment>
+<pinref part="U$46" gate="G$1" pin="5V"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="147.32" x2="132.08" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V_PIN" class="0">
