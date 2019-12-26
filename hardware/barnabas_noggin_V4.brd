@@ -251,6 +251,12 @@
 <circle x="67.2" y="50.4" radius="0.01" width="0.2" layer="21"/>
 <circle x="64.7" y="40.7" radius="0.01" width="0.2" layer="21"/>
 <circle x="67.3" y="40.7" radius="0.01" width="0.2" layer="21"/>
+<text x="17.2" y="51.3" size="1.15" layer="21" font="vector" ratio="18" rot="R270">12</text>
+<text x="18.4" y="46.8" size="1.15" layer="21" font="vector" ratio="18" rot="R90">10</text>
+<text x="18.5" y="44.5" size="1.15" layer="21" font="vector" ratio="18" rot="R90">5V</text>
+<text x="18.5" y="41.1" size="1.15" layer="21" font="vector" ratio="18" rot="R90">GND</text>
+<text x="18.5" y="39.1" size="1.15" layer="21" font="vector" ratio="18" rot="R90">11</text>
+<text x="18.4" y="37.2" size="1.15" layer="21" font="vector" ratio="18" rot="R90">8</text>
 </plain>
 <libraries>
 <library name="barnabas_noggin_V4">
@@ -14532,8 +14538,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="E2" library="barnabas_noggin_V4" package="BUZZER" value="BUZZER" x="62.38" y="20.07" smashed="yes">
 <attribute name="MF" value="" x="62.38" y="20.07" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="62.38" y="20.07" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="62.38" y="20.07" size="1.27" layer="51" ratio="10" align="center"/>
 <attribute name="NAME" x="66.682" y="13.985" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="62.38" y="20.07" size="1.27" layer="51" ratio="10" align="center"/>
 <attribute name="OC_FARNELL" value="unknown" x="62.38" y="20.07" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="62.38" y="20.07" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.57" y="16.26" size="1.27" layer="27" ratio="10"/>
@@ -14621,12 +14627,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="63.9" y="50.441" size="0.6096" layer="27"/>
 </element>
 <element name="J6" library="barnabas_noggin_V4" package="1X06" value="2.54mm" x="20" y="44" smashed="yes" rot="R270">
-<attribute name="NAME" x="17.4288" y="51.4962" size="1.016" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="19.4038" y="51.8288" size="1.016" layer="25" font="vector"/>
 <attribute name="NAME" x="20" y="44" size="1.27" layer="51" ratio="10" rot="R270" align="center"/>
 <attribute name="PARTNO" value="M20-7820646" x="20" y="44" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="16.825" y="51.62" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="U5" library="barnabas_noggin_V4" package="L9110S_DRIVER" value="L9110S_DRIVER" x="18.7" y="32.3" rot="MR90"/>
+<element name="U5" library="barnabas_noggin_V4" package="L9110S_DRIVER" value="L9110S_DRIVER" x="18.7" y="32.3" smashed="yes" rot="MR90">
+<attribute name="NAME" x="28.86" y="31.03" size="1.778" layer="52" rot="MR180"/>
+</element>
 <element name="U3" library="barnabas_noggin_V4" package="SOT23-DBV" value="LP2985-XXDBVR" x="34.4" y="18" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.595" y="19.705" size="1.016" layer="25" font="vector"/>
 <attribute name="NAME" x="34.4" y="18" size="1.016" layer="51" ratio="10" rot="R270" align="center"/>
