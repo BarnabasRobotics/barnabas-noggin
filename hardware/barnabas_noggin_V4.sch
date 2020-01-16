@@ -2157,10 +2157,6 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <part name="F3" library="barnabas_noggin_V4" deviceset="FUSE_6V" device="" value="FUSE_6V">
 <attribute name="PARTNO" value="MF-FSMF050X-2"/>
 </part>
-<part name="R10" library="barnabas_noggin_V4" deviceset="RESISTOR" device="0603" value="1K">
-<attribute name="PARTNO" value="RC0603FR-071KL "/>
-</part>
-<part name="U$46" library="barnabas_noggin_V4" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2389,10 +2385,6 @@ LED and Buzzer</text>
 <attribute name="NAME" x="234.95" y="85.3186" size="1.778" layer="95"/>
 <attribute name="PARTNO" x="236.22" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R10" gate="G$1" x="132.08" y="137.16" rot="R90">
-<attribute name="PARTNO" x="132.08" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="U$46" gate="G$1" x="132.08" y="149.86"/>
 </instances>
 <busses>
 </busses>
@@ -2442,12 +2434,8 @@ LED and Buzzer</text>
 <segment>
 <pinref part="U2" gate="G$1" pin="PD2(INT0)"/>
 <label x="116.84" y="121.92" size="1.778" layer="95"/>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="132.08" x2="132.08" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="136.652" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="PB2" gate="G$1" pin="1"/>
-<wire x1="136.652" y1="121.92" x2="132.08" y2="121.92" width="0.1524" layer="91"/>
-<junction x="132.08" y="121.92"/>
 </segment>
 <segment>
 <pinref part="J8" gate="A" pin="3"/>
@@ -3289,11 +3277,6 @@ LED and Buzzer</text>
 <wire x1="195.58" y1="76.2" x2="192.024" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="192.024" y1="76.2" x2="192.024" y2="81.28" width="0.1524" layer="91"/>
 <junction x="192.024" y="81.28"/>
-</segment>
-<segment>
-<pinref part="U$46" gate="G$1" pin="5V"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="147.32" x2="132.08" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V_PIN" class="0">
