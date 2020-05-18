@@ -1183,8 +1183,12 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <part name="U1" library="barnabas_noggin_V4" deviceset="L9110S_DRIVER" device=""/>
 <part name="SYMBLE3" library="barnabas_noggin_V4" deviceset="5V_PIN" device=""/>
 <part name="SYMBLE4" library="barnabas_noggin_V4" deviceset="GND" device=""/>
-<part name="F1" library="barnabas_noggin_V4" deviceset="FUSE_6V" device=""/>
-<part name="F2" library="barnabas_noggin_V4" deviceset="FUSE_6V" device=""/>
+<part name="F1" library="barnabas_noggin_V4" deviceset="FUSE_6V" device="">
+<attribute name="PARTNO" value="MF-FSMF050X-2"/>
+</part>
+<part name="F2" library="barnabas_noggin_V4" deviceset="FUSE_6V" device="">
+<attribute name="PARTNO" value="MF-FSMF050X-2"/>
+</part>
 <part name="U$1" library="barnabas_noggin_V4" deviceset="ARDUINONANO" device=""/>
 <part name="SYMBLE5" library="barnabas_noggin_V4" deviceset="5V_PIN" device=""/>
 <part name="SYMBLE7" library="barnabas_noggin_V4" deviceset="5V_PIN" device=""/>
@@ -1262,8 +1266,12 @@ LED and Buzzer</text>
 <instance part="U1" gate="G$1" x="137.16" y="17.78"/>
 <instance part="SYMBLE3" gate="G$1" x="106.68" y="40.64"/>
 <instance part="SYMBLE4" gate="G$1" x="106.68" y="17.78"/>
-<instance part="F1" gate="G$1" x="50.8" y="22.86" rot="R90"/>
-<instance part="F2" gate="G$1" x="50.8" y="-27.94" rot="R90"/>
+<instance part="F1" gate="G$1" x="50.8" y="22.86" rot="R90">
+<attribute name="PARTNO" x="50.8" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="F2" gate="G$1" x="50.8" y="-27.94" rot="R90">
+<attribute name="PARTNO" x="50.8" y="-27.94" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="U$1" gate="G$1" x="7.62" y="40.64"/>
 <instance part="SYMBLE5" gate="G$1" x="185.42" y="114.3"/>
 <instance part="SYMBLE7" gate="G$1" x="198.12" y="114.3"/>
