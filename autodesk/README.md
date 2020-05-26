@@ -5,3 +5,6 @@ Team Files can be found [https://barnabasrobotics.autodesk360.com](https://barna
 anyone with the domain email can access
 
 The eagle files have had changes made to the dimensions layer (20)
+
+
+[Autodesk Hobbyist](https://forums.autodesk.com/t5/fusion-360-support/really-free-for-hobbyist-enthusiast-or-business-that-make-less/td-p/7071441)
