@@ -16,3 +16,6 @@ Changes in V3.1:
  - Add fuse protection on 5V and 3.3V
  - Add DC Driver Controller
  - Fix silkscreen text
+
+
+[AutoDesk Fusion 360 file](https://a360.co/3gs5b8a)
