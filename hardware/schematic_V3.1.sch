@@ -1172,7 +1172,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <attribute name="PARTNO" value="CC0603ZRY5V9BB104"/>
 </part>
 <part name="SYMBLE12" library="barnabas_noggin_V4" deviceset="GND" device=""/>
-<part name="R1" library="barnabas_noggin_V4" deviceset="RESISTOR" device="" value="4.7K"/>
+<part name="R1" library="barnabas_noggin_V4" deviceset="RESISTOR" device="" value="470"/>
 <part name="E1" library="barnabas_noggin_V4" deviceset="LEDPTH" device=""/>
 <part name="SYMBLE13" library="barnabas_noggin_V4" deviceset="GND" device=""/>
 <part name="R2" library="barnabas_noggin_V4" deviceset="RESISTOR" device="" value="470"/>
@@ -1838,6 +1838,10 @@ LED and Buzzer</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,33.02,12.7,A6,,,,,"/>
+<approved hash="106,1,33.02,17.78,A7,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

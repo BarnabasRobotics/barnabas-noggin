@@ -258,7 +258,7 @@
 <text x="45" y="15.9" size="1.27" layer="21" font="vector" ratio="18" rot="R90">BUZZER6</text>
 <text x="28.8" y="20.4" size="1.27" layer="21" font="vector" ratio="18" rot="R270">LED7</text>
 <text x="60.6" y="18.2" size="1.27" layer="21" font="vector" ratio="18" rot="R90">470Ω</text>
-<text x="36.6" y="24.4" size="1.27" layer="21" font="vector" ratio="18" rot="R180">4.7KΩ</text>
+<text x="36.3" y="24.4" size="1.27" layer="21" font="vector" ratio="18" rot="R180">470Ω</text>
 <rectangle x1="13.382" y1="49.122" x2="13.39" y2="49.126" layer="21"/>
 <rectangle x1="12.822" y1="49.126" x2="12.87" y2="49.13" layer="21"/>
 <rectangle x1="13.358" y1="49.126" x2="13.41" y2="49.13" layer="21"/>
@@ -14176,7 +14176,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PARTNO" value="CC0603ZRY5V9BB104" x="60.261" y="43.264" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.658" y="41.232" size="1.27" layer="27"/>
 </element>
-<element name="R1" library="barnabas_noggin_V4" package="RESISTOR_PTH" value="4.7K" x="33.836" y="23.812" smashed="yes" rot="R180">
+<element name="R1" library="barnabas_noggin_V4" package="RESISTOR_PTH" value="470" x="33.836" y="23.812" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.784" y="26.088" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="NAME" x="33.836" y="23.812" size="1.27" layer="51" ratio="10" rot="R180" align="center"/>
 <attribute name="VALUE" x="36.0966" y="24.447" size="1.27" layer="27" ratio="10" rot="R180"/>
