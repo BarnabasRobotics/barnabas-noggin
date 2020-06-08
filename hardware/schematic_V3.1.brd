@@ -9,11 +9,11 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
@@ -231,10 +231,6 @@
 <text x="9.0582" y="55.411" size="1" layer="21" font="vector" ratio="18">#5.2</text>
 <text x="58.590959375" y="5.712440625" size="0.8128" layer="21" font="vector" ratio="20">Barnabas Noggin</text>
 <text x="61.760596875" y="4.293203125" size="0.8128" layer="21" font="vector" ratio="20">Rev 2D</text>
-<text x="59.118" y="44.978" size="1.27" layer="21" font="vector" ratio="15" rot="R90">SERVO9</text>
-<text x="66.955" y="45.032" size="1.27" layer="21" font="vector" ratio="15" rot="R90">SERVO3</text>
-<text x="66.954" y="33.076" size="1.27" layer="21" font="vector" ratio="15" rot="R90">SERVO10</text>
-<text x="59.081" y="33.154" size="1.27" layer="21" font="vector" ratio="15" rot="R90">SERVO11</text>
 <hole x="10.41949375" y="7.83880625" drill="2.9"/>
 <text x="33.371" y="6.578" size="1.15" layer="21" font="vector" ratio="20" rot="R90">RST</text>
 <text x="57.8" y="59.3" size="1.15" layer="21" font="vector" ratio="18" rot="R90">2</text>
@@ -254,12 +250,12 @@
 <text x="47.7" y="59.3" size="1.15" layer="21" font="vector" ratio="18" rot="R90">6~</text>
 <text x="45.2" y="59.3" size="1.15" layer="21" font="vector" ratio="18" rot="R90">7</text>
 <text x="66.7" y="27" size="1.15" layer="21" font="vector" ratio="18">12</text>
-<text x="66.7" y="24.5" size="1.15" layer="21" font="vector" ratio="18">10</text>
+<text x="66.7" y="24.5" size="1.15" layer="21" font="vector" ratio="18">10~</text>
 <text x="66.7" y="22" size="1.15" layer="21" font="vector" ratio="18">5V</text>
 <text x="66.7" y="19.4" size="1.15" layer="21" font="vector" ratio="18">GND</text>
-<text x="66.7" y="16.8" size="1.15" layer="21" font="vector" ratio="18">11</text>
+<text x="66.7" y="16.8" size="1.15" layer="21" font="vector" ratio="18">11~</text>
 <text x="66.7" y="14.3" size="1.15" layer="21" font="vector" ratio="18">8</text>
-<text x="43.8" y="15.8" size="1.27" layer="21" font="vector" ratio="18" rot="R90">BUZZER6</text>
+<text x="45" y="15.9" size="1.27" layer="21" font="vector" ratio="18" rot="R90">BUZZER6</text>
 <text x="28.8" y="20.4" size="1.27" layer="21" font="vector" ratio="18" rot="R270">LED7</text>
 <text x="60.6" y="18.2" size="1.27" layer="21" font="vector" ratio="18" rot="R90">470Ω</text>
 <text x="36.6" y="24.4" size="1.27" layer="21" font="vector" ratio="18" rot="R180">4.7KΩ</text>
@@ -13536,6 +13532,18 @@
 <rectangle x1="15.534" y1="60.018" x2="15.646" y2="60.022" layer="21"/>
 <rectangle x1="15.55" y1="60.022" x2="15.626" y2="60.026" layer="21"/>
 <rectangle x1="15.586" y1="60.026" x2="15.59" y2="60.03" layer="21"/>
+<text x="59.6" y="51.3" size="1.15" layer="21" font="vector" ratio="18" rot="R180">9</text>
+<text x="59.6" y="48.8" size="1.15" layer="21" font="vector" ratio="18" rot="R180">V</text>
+<text x="59.6" y="46.1" size="1.15" layer="21" font="vector" ratio="18" rot="R180">G</text>
+<text x="66.7" y="51.3" size="1.15" layer="21" font="vector" ratio="18" rot="R180">3</text>
+<text x="66.7" y="48.8" size="1.15" layer="21" font="vector" ratio="18" rot="R180">V</text>
+<text x="66.7" y="46.1" size="1.15" layer="21" font="vector" ratio="18" rot="R180">G</text>
+<text x="59.6" y="40" size="1.15" layer="21" font="vector" ratio="18" rot="R180">11</text>
+<text x="59.6" y="37.4" size="1.15" layer="21" font="vector" ratio="18" rot="R180">V</text>
+<text x="59.6" y="34.8" size="1.15" layer="21" font="vector" ratio="18" rot="R180">G</text>
+<text x="67.7" y="40" size="1.15" layer="21" font="vector" ratio="18" rot="R180">10</text>
+<text x="66.7" y="37.4" size="1.15" layer="21" font="vector" ratio="18" rot="R180">V</text>
+<text x="66.7" y="34.8" size="1.15" layer="21" font="vector" ratio="18" rot="R180">G</text>
 </plain>
 <libraries>
 <library name="barnabas_noggin_V4">
@@ -14104,7 +14112,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="D1" library="barnabas_noggin_V4" package="DIODI_DO220AAL" value="SS1P3L" x="24.277" y="14.057" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.277" y="14.057" size="1.016" layer="51" ratio="10" rot="R180" align="center"/>
-<attribute name="NAME" x="26.817" y="12.787" size="1.016" layer="21" font="vector" rot="R180"/>
+<attribute name="NAME" x="25.217" y="12.487" size="1.016" layer="21" font="vector" rot="R180"/>
 <attribute name="PARTNO" value="SS1P3L-M3/84A" x="69.11" y="-32.076" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="26.817" y="16.597" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -14169,7 +14177,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="58.658" y="41.232" size="1.27" layer="27"/>
 </element>
 <element name="R1" library="barnabas_noggin_V4" package="RESISTOR_PTH" value="4.7K" x="33.836" y="23.812" smashed="yes" rot="R180">
-<attribute name="NAME" x="34.584" y="22.488" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="34.784" y="26.088" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="NAME" x="33.836" y="23.812" size="1.27" layer="51" ratio="10" rot="R180" align="center"/>
 <attribute name="VALUE" x="36.0966" y="24.447" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
