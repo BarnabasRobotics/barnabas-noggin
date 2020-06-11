@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -569,44 +569,87 @@ edited to line up to 0.05mm grid per http://www.innofour.com/4003/news/literatur
 </package>
 </packages>
 <packages3d>
-<package3d name="C0603-ROUND" urn="urn:adsk.eagle:package:20877366/1" type="box" library_version="1">
+<package3d name="C0603-ROUND" urn="urn:adsk.eagle:package:20877366/2" type="model" library_version="3">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 chip</description>
+<packageinstances>
+<packageinstance name="C0603-ROUND"/>
+</packageinstances>
 </package3d>
-<package3d name="DIODI_DO220AAL" urn="urn:adsk.eagle:package:20877361/1" type="box" library_version="1">
+<package3d name="DIODI_DO220AAL" urn="urn:adsk.eagle:package:20877361/2" type="model" library_version="3">
+<description>Chip, 3.20 X 2.00 X 1.15 mm body
+&lt;p&gt;Chip package with body size 3.20 X 2.00 X 1.15 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIODI_DO220AAL"/>
+</packageinstances>
 </package3d>
-<package3d name="POWER_JACK_PTH" urn="urn:adsk.eagle:package:20877354/1" type="box" library_version="1">
+<package3d name="POWER_JACK_PTH" urn="urn:adsk.eagle:package:20877354/2" type="model" library_version="3">
+<packageinstances>
+<packageinstance name="POWER_JACK_PTH"/>
+</packageinstances>
 </package3d>
-<package3d name="CONNECTOR_2X3" urn="urn:adsk.eagle:package:20877364/1" type="box" library_version="1">
+<package3d name="CONNECTOR_2X3" urn="urn:adsk.eagle:package:20877364/2" type="model" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="CONNECTOR_2X3"/>
+</packageinstances>
 </package3d>
-<package3d name="1X08" urn="urn:adsk.eagle:package:20877347/1" type="box" library_version="1">
+<package3d name="1X08" urn="urn:adsk.eagle:package:20877347/2" type="model" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="1X08"/>
+</packageinstances>
 </package3d>
-<package3d name="1X06" urn="urn:adsk.eagle:package:20877348/1" type="box" library_version="1">
+<package3d name="1X06" urn="urn:adsk.eagle:package:20877348/2" type="model" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="1X06"/>
+</packageinstances>
 </package3d>
-<package3d name="RESISTOR_PTH" urn="urn:adsk.eagle:package:20877350/1" type="box" library_version="1">
+<package3d name="RESISTOR_PTH" urn="urn:adsk.eagle:package:20877350/2" type="model" library_version="3">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0207, grid 10 mm</description>
+<packageinstances>
+<packageinstance name="RESISTOR_PTH"/>
+</packageinstances>
 </package3d>
-<package3d name="R0603" urn="urn:adsk.eagle:package:20877355/1" type="box" library_version="1">
+<package3d name="LED5MM" urn="urn:adsk.eagle:package:20877351/2" type="model" library_version="3">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+5 mm, round</description>
+<packageinstances>
+<packageinstance name="LED5MM"/>
+</packageinstances>
+</package3d>
+<package3d name="BUZZER" urn="urn:adsk.eagle:package:20877349/2" type="model" library_version="3">
+<description>&lt;b&gt;BUZZER&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="BUZZER"/>
+</packageinstances>
+</package3d>
+<package3d name="L9110S_DRIVER" urn="urn:adsk.eagle:package:20877345/1" type="empty" library_version="2">
+<packageinstances>
+<packageinstance name="L9110S_DRIVER"/>
+</packageinstances>
+</package3d>
+<package3d name="FUSE_0603" urn="urn:adsk.eagle:package:20877369/3" type="model" library_version="3">
+<description>Chip, 3.20 X 1.60 X 0.70 mm body
+&lt;p&gt;Chip package with body size 3.20 X 1.60 X 0.70 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="FUSE_0603"/>
+</packageinstances>
+</package3d>
+<package3d name="PDIP-32" urn="urn:adsk.eagle:package:20877342/3" type="model" library_version="5">
+<packageinstances>
+<packageinstance name="PDIP-32"/>
+</packageinstances>
+</package3d>
+<package3d name="R0603" urn="urn:adsk.eagle:package:20877355/2" type="model" library_version="6">
 <description>Resistor, Chip; 1.60 mm L X 0.80 mm W X 0.55 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;
 
 edited to line up to 0.05mm grid per http://www.innofour.com/4003/news/literature/pcb-design-perfection-starts-in-the-cad-library/pcb-design-perfection-starts-in-the-cad-library-part-2</description>
-</package3d>
-<package3d name="LED5MM" urn="urn:adsk.eagle:package:20877351/1" type="box" library_version="1">
-<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-5 mm, round</description>
-</package3d>
-<package3d name="BUZZER" urn="urn:adsk.eagle:package:20877349/1" type="box" library_version="1">
-<description>&lt;b&gt;BUZZER&lt;/b&gt;</description>
-</package3d>
-<package3d name="L9110S_DRIVER" urn="urn:adsk.eagle:package:20877345/1" type="empty" library_version="1">
-</package3d>
-<package3d name="FUSE_0603" urn="urn:adsk.eagle:package:20877369/1" type="box" library_version="1">
-</package3d>
-<package3d name="PDIP-32" urn="urn:adsk.eagle:package:20877342/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="R0603"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -860,7 +903,7 @@ edited to line up to 0.05mm grid per http://www.innofour.com/4003/news/literatur
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITOR_1UF_0603" urn="urn:adsk.eagle:component:20877398/1" prefix="C" uservalue="yes" library_version="1">
+<deviceset name="CAPACITOR_1UF_0603" urn="urn:adsk.eagle:component:20877398/2" prefix="C" uservalue="yes" library_version="3">
 <description>1uF 0603</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR-EU" x="0" y="0"/>
@@ -872,7 +915,7 @@ edited to line up to 0.05mm grid per http://www.innofour.com/4003/news/literatur
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20877366/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20877366/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -880,7 +923,7 @@ edited to line up to 0.05mm grid per http://www.innofour.com/4003/news/literatur
 </device>
 </devices>
 </deviceset>
-<deviceset name="SCHOTTKY_DIODE" urn="urn:adsk.eagle:component:20877392/1" prefix="D" uservalue="yes" library_version="1">
+<deviceset name="SCHOTTKY_DIODE" urn="urn:adsk.eagle:component:20877392/2" prefix="D" uservalue="yes" library_version="3">
 <description>1A 30V Schottky Barrier Rectifiers -SS1P3L-M3/84A</description>
 <gates>
 <gate name="G$1" symbol="DIODE" x="0" y="0"/>
@@ -892,7 +935,7 @@ edited to line up to 0.05mm grid per http://www.innofour.com/4003/news/literatur
 <connect gate="G$1" pin="K" pad="P$1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20877361/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20877361/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -912,7 +955,7 @@ edited to line up to 0.05mm grid per http://www.innofour.com/4003/news/literatur
 </device>
 </devices>
 </deviceset>
-<deviceset name="POWER_JACK" urn="urn:adsk.eagle:component:20877376/1" prefix="J" library_version="1">
+<deviceset name="POWER_JACK" urn="urn:adsk.eagle:component:20877376/2" prefix="J" library_version="3">
 <description>&lt;b&gt;Power Jack&lt;/b&gt;
 This is the standard 5.5mm barrel jack for power. The PTH is the most common, proven, reliable, footprint. All others are experimental. The Slot footprint only works if the mill layer is transmitted to the PCB fab house so be warned. Spark Fun Electronics SKU : PRT-00119. Mating wall wart : TOL-00298 (and others)</description>
 <gates>
@@ -926,7 +969,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <connect gate="G$1" pin="PWR" pad="PWR"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20877354/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20877354/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -934,7 +977,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONNECTOR_2X3" urn="urn:adsk.eagle:component:20877395/1" prefix="J" uservalue="yes" library_version="1">
+<deviceset name="CONNECTOR_2X3" urn="urn:adsk.eagle:component:20877395/2" prefix="J" uservalue="yes" library_version="3">
 <description>3x2 M V h 8,5 mm p2,54</description>
 <gates>
 <gate name="A" symbol="CONNECTOR_2X3" x="0" y="0"/>
@@ -950,7 +993,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <connect gate="A" pin="6" pad="6"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20877364/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20877364/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -958,7 +1001,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-1X8" urn="urn:adsk.eagle:component:20877371/1" prefix="J" uservalue="yes" library_version="1">
+<deviceset name="PINHD-1X8" urn="urn:adsk.eagle:component:20877371/2" prefix="J" uservalue="yes" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINHD8" x="0" y="0"/>
@@ -976,7 +1019,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <connect gate="A" pin="8" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20877347/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20877347/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -984,7 +1027,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-1X6" urn="urn:adsk.eagle:component:20877372/1" prefix="J" uservalue="yes" library_version="1">
+<deviceset name="PINHD-1X6" urn="urn:adsk.eagle:component:20877372/2" prefix="J" uservalue="yes" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINHD6" x="0" y="-2.54"/>
@@ -1000,7 +1043,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <connect gate="A" pin="6" pad="6"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20877348/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20877348/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1008,7 +1051,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITOR_100NF_0603" urn="urn:adsk.eagle:component:20877397/1" prefix="C" uservalue="yes" library_version="1">
+<deviceset name="CAPACITOR_100NF_0603" urn="urn:adsk.eagle:component:20877397/2" prefix="C" uservalue="yes" library_version="3">
 <description>CAP CER 0.1UF 50V Y5V 0603</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR-EU" x="0" y="0"/>
@@ -1020,7 +1063,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20877366/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20877366/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1028,7 +1071,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </device>
 </devices>
 </deviceset>
-<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:20877378/1" prefix="R" uservalue="yes" library_version="1">
+<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:20877378/3" prefix="R" uservalue="yes" library_version="6">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -1039,7 +1082,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20877355/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20877355/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1051,7 +1094,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20877350/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20877350/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1059,7 +1102,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </device>
 </devices>
 </deviceset>
-<deviceset name="LEDPTH" urn="urn:adsk.eagle:component:20877374/1" prefix="E" library_version="1">
+<deviceset name="LEDPTH" urn="urn:adsk.eagle:component:20877374/2" prefix="E" library_version="3">
 <gates>
 <gate name="G$1" symbol="LEDPTH" x="0" y="-2.54"/>
 </gates>
@@ -1070,7 +1113,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <connect gate="G$1" pin="C" pad="K"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20877351/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20877351/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1078,7 +1121,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUZZER" urn="urn:adsk.eagle:component:20877373/1" prefix="E" library_version="1">
+<deviceset name="BUZZER" urn="urn:adsk.eagle:component:20877373/2" prefix="E" library_version="3">
 <description>&lt;b&gt;BUZZER&lt;/b&gt;&lt;p&gt; Source: Buerklin</description>
 <gates>
 <gate name="1" symbol="BUZZER" x="0" y="0"/>
@@ -1090,7 +1133,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <connect gate="1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20877349/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20877349/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1115,7 +1158,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </device>
 </devices>
 </deviceset>
-<deviceset name="L9110S_DRIVER" urn="urn:adsk.eagle:component:20877401/1" prefix="U" library_version="1">
+<deviceset name="L9110S_DRIVER" urn="urn:adsk.eagle:component:20877401/1" prefix="U" library_version="2">
 <gates>
 <gate name="G$1" symbol="L9110S_DRIVER" x="0" y="0"/>
 </gates>
@@ -1130,7 +1173,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </device>
 </devices>
 </deviceset>
-<deviceset name="FUSE_6V" urn="urn:adsk.eagle:component:20877400/1" prefix="F" library_version="1">
+<deviceset name="FUSE_6V" urn="urn:adsk.eagle:component:20877400/2" prefix="F" library_version="3">
 <description>SMD PTC</description>
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
@@ -1142,7 +1185,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20877369/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20877369/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1150,7 +1193,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </device>
 </devices>
 </deviceset>
-<deviceset name="ARDUINONANO" urn="urn:adsk.eagle:component:20877405/1" prefix="J" library_version="1">
+<deviceset name="ARDUINONANO" urn="urn:adsk.eagle:component:20877405/3" prefix="J" library_version="5">
 <gates>
 <gate name="G$1" symbol="ARDUINONANO" x="-10.16" y="38.1"/>
 </gates>
@@ -1189,7 +1232,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20877342/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20877342/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1210,69 +1253,69 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </classes>
 <parts>
 <part name="FRAME1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="FRAME_LEGAL_LANDSCAPE_0.150" device=""/>
-<part name="J1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="POWER_JACK" device="PTH" package3d_urn="urn:adsk.eagle:package:20877354/1">
+<part name="J1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="POWER_JACK" device="PTH" package3d_urn="urn:adsk.eagle:package:20877354/2">
 <attribute name="PARTNO" value="EJ508A"/>
 </part>
-<part name="D1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="SCHOTTKY_DIODE" device="" package3d_urn="urn:adsk.eagle:package:20877361/1" value="SS1P3L">
+<part name="D1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="SCHOTTKY_DIODE" device="" package3d_urn="urn:adsk.eagle:package:20877361/2" value="SS1P3L">
 <attribute name="PARTNO" value="SS1P3L-M3/84A"/>
 </part>
 <part name="SYMBLE1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="GND" device=""/>
-<part name="C1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="CAPACITOR_1UF_0603" device="" package3d_urn="urn:adsk.eagle:package:20877366/1" value="1uF">
+<part name="C1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="CAPACITOR_1UF_0603" device="" package3d_urn="urn:adsk.eagle:package:20877366/2" value="1uF">
 <attribute name="PARTNO" value="CC0603KRX5R8BB105"/>
 </part>
 <part name="SYMBLE2" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="GND" device=""/>
-<part name="J3" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="CONNECTOR_2X3" device="" package3d_urn="urn:adsk.eagle:package:20877364/1" value="ICSP">
+<part name="J3" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="CONNECTOR_2X3" device="" package3d_urn="urn:adsk.eagle:package:20877364/2" value="ICSP">
 <attribute name="PARTNO" value="M20-9980346"/>
 </part>
-<part name="J4" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="CONNECTOR_2X3" device="" package3d_urn="urn:adsk.eagle:package:20877364/1" value="ICSP">
+<part name="J4" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="CONNECTOR_2X3" device="" package3d_urn="urn:adsk.eagle:package:20877364/2" value="ICSP">
 <attribute name="PARTNO" value="M20-9980346"/>
 </part>
-<part name="J6" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:20877347/1" value="2.54mm">
+<part name="J6" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:20877347/2" value="2.54mm">
 <attribute name="PARTNO" value="PPTC081LFBN-RC"/>
 </part>
-<part name="J9" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:20877347/1" value="2.54mm">
+<part name="J9" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:20877347/2" value="2.54mm">
 <attribute name="PARTNO" value="PPTC081LFBN-RC"/>
 </part>
-<part name="J5" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:20877348/1" value="2.54mm">
+<part name="J5" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:20877348/2" value="2.54mm">
 <attribute name="PARTNO" value="M20-7820646"/>
 </part>
-<part name="J8" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:20877348/1" value="2.54mm">
+<part name="J8" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:20877348/2" value="2.54mm">
 <attribute name="PARTNO" value="M20-7820646"/>
 </part>
-<part name="C2" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="CAPACITOR_100NF_0603" device="" package3d_urn="urn:adsk.eagle:package:20877366/1" value="100nF">
+<part name="C2" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="CAPACITOR_100NF_0603" device="" package3d_urn="urn:adsk.eagle:package:20877366/2" value="100nF">
 <attribute name="PARTNO" value="CC0603ZRY5V9BB104"/>
 </part>
 <part name="SYMBLE6" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="GND" device=""/>
-<part name="C3" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="CAPACITOR_100NF_0603" device="" package3d_urn="urn:adsk.eagle:package:20877366/1" value="100nF">
+<part name="C3" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="CAPACITOR_100NF_0603" device="" package3d_urn="urn:adsk.eagle:package:20877366/2" value="100nF">
 <attribute name="PARTNO" value="CC0603ZRY5V9BB104"/>
 </part>
 <part name="SYMBLE8" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="GND" device=""/>
-<part name="C4" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="CAPACITOR_100NF_0603" device="" package3d_urn="urn:adsk.eagle:package:20877366/1" value="100nF">
+<part name="C4" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="CAPACITOR_100NF_0603" device="" package3d_urn="urn:adsk.eagle:package:20877366/2" value="100nF">
 <attribute name="PARTNO" value="CC0603ZRY5V9BB104"/>
 </part>
 <part name="SYMBLE10" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="GND" device=""/>
-<part name="C5" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="CAPACITOR_100NF_0603" device="" package3d_urn="urn:adsk.eagle:package:20877366/1" value="100nF">
+<part name="C5" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="CAPACITOR_100NF_0603" device="" package3d_urn="urn:adsk.eagle:package:20877366/2" value="100nF">
 <attribute name="PARTNO" value="CC0603ZRY5V9BB104"/>
 </part>
 <part name="SYMBLE12" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="GND" device=""/>
-<part name="R1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:20877350/1" value="470"/>
-<part name="E1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="LEDPTH" device="" package3d_urn="urn:adsk.eagle:package:20877351/1"/>
+<part name="R1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:20877350/2" value="470"/>
+<part name="E1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="LEDPTH" device="" package3d_urn="urn:adsk.eagle:package:20877351/2"/>
 <part name="SYMBLE13" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="GND" device=""/>
-<part name="R2" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:20877350/1" value="470"/>
-<part name="E2" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="BUZZER" device="" package3d_urn="urn:adsk.eagle:package:20877349/1"/>
-<part name="J7" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:20877348/1" value="2.54mm">
+<part name="R2" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:20877350/2" value="470"/>
+<part name="E2" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="BUZZER" device="" package3d_urn="urn:adsk.eagle:package:20877349/2"/>
+<part name="J7" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:20877348/2" value="2.54mm">
 <attribute name="PARTNO" value="M20-7820646"/>
 </part>
 <part name="U1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="L9110S_DRIVER" device="" package3d_urn="urn:adsk.eagle:package:20877345/1"/>
 <part name="SYMBLE3" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="5V_PIN" device=""/>
 <part name="SYMBLE4" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="GND" device=""/>
-<part name="F1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="FUSE_6V" device="" package3d_urn="urn:adsk.eagle:package:20877369/1">
+<part name="F1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="FUSE_6V" device="" package3d_urn="urn:adsk.eagle:package:20877369/3">
 <attribute name="PARTNO" value="MF-FSMF050X-2"/>
 </part>
-<part name="F2" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="FUSE_6V" device="" package3d_urn="urn:adsk.eagle:package:20877369/1">
+<part name="F2" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="FUSE_6V" device="" package3d_urn="urn:adsk.eagle:package:20877369/3">
 <attribute name="PARTNO" value="MF-FSMF050X-2"/>
 </part>
-<part name="U$1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="ARDUINONANO" device="" package3d_urn="urn:adsk.eagle:package:20877342/1"/>
+<part name="U$1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="ARDUINONANO" device="" package3d_urn="urn:adsk.eagle:package:20877342/3"/>
 <part name="SYMBLE5" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="5V_PIN" device=""/>
 <part name="SYMBLE7" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="5V_PIN" device=""/>
 <part name="SYMBLE9" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="5V_PIN" device=""/>
@@ -1291,75 +1334,136 @@ LED and Buzzer</text>
 <text x="104.14" y="50.8" size="5.08" layer="91">DC Driver Connector</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="-25.4" y="-63.5"/>
-<instance part="FRAME1" gate="G$2" x="217.17" y="-59.69"/>
-<instance part="J1" gate="G$1" x="-2.54" y="109.22">
+<instance part="FRAME1" gate="G$1" x="-25.4" y="-63.5" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="217.17" y="-59.69" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="229.87" y="-58.42" size="2.54" layer="94"/>
+<attribute name="SHEET" x="303.53" y="-58.42" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="234.95" y="-40.64" size="2.54" layer="94"/>
+</instance>
+<instance part="J1" gate="G$1" x="-2.54" y="109.22" smashed="yes">
 <attribute name="PARTNO" x="-2.54" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="VALUE" x="-12.7" y="119.38" size="1.778" layer="96"/>
+<attribute name="NAME" x="-12.7" y="109.22" size="1.778" layer="95"/>
 </instance>
-<instance part="D1" gate="G$1" x="8.636" y="116.84">
+<instance part="D1" gate="G$1" x="8.636" y="116.84" smashed="yes">
 <attribute name="PARTNO" x="8.636" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="6.731" y="118.745" size="1.27" layer="94"/>
+<attribute name="VALUE" x="6.731" y="113.665" size="1.27" layer="94"/>
 </instance>
-<instance part="SYMBLE1" gate="G$1" x="5.08" y="97.79"/>
-<instance part="C1" gate="G$1" x="22.86" y="110.49">
+<instance part="SYMBLE1" gate="G$1" x="5.08" y="97.79" smashed="yes"/>
+<instance part="C1" gate="G$1" x="22.86" y="110.49" smashed="yes">
 <attribute name="PARTNO" x="22.86" y="110.49" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="24.384" y="110.871" size="1.778" layer="95"/>
+<attribute name="VALUE" x="24.384" y="105.791" size="1.778" layer="96"/>
 </instance>
-<instance part="SYMBLE2" gate="G$1" x="22.86" y="97.79"/>
-<instance part="J3" gate="A" x="60.96" y="111.76">
+<instance part="SYMBLE2" gate="G$1" x="22.86" y="97.79" smashed="yes"/>
+<instance part="J3" gate="A" x="60.96" y="111.76" smashed="yes">
 <attribute name="PARTNO" x="60.96" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="54.61" y="117.475" size="1.778" layer="95"/>
+<attribute name="VALUE" x="54.61" y="104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="J4" gate="A" x="60.96" y="96.52">
+<instance part="J4" gate="A" x="60.96" y="96.52" smashed="yes">
 <attribute name="PARTNO" x="60.96" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="54.61" y="102.235" size="1.778" layer="95"/>
+<attribute name="VALUE" x="54.61" y="88.9" size="1.778" layer="96"/>
 </instance>
-<instance part="J6" gate="A" x="121.92" y="104.14">
+<instance part="J6" gate="A" x="121.92" y="104.14" smashed="yes">
 <attribute name="PARTNO" x="121.92" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="115.57" y="117.475" size="1.778" layer="95"/>
+<attribute name="VALUE" x="115.57" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="J9" gate="A" x="139.7" y="104.14">
+<instance part="J9" gate="A" x="139.7" y="104.14" smashed="yes">
 <attribute name="PARTNO" x="139.7" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="133.35" y="117.475" size="1.778" layer="95"/>
+<attribute name="VALUE" x="133.35" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="J5" gate="A" x="119.38" y="76.2">
+<instance part="J5" gate="A" x="119.38" y="76.2" smashed="yes">
 <attribute name="PARTNO" x="119.38" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="113.03" y="86.995" size="1.778" layer="95"/>
+<attribute name="VALUE" x="113.03" y="66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="J8" gate="A" x="133.35" y="76.454">
+<instance part="J8" gate="A" x="133.35" y="76.454" smashed="yes">
 <attribute name="PARTNO" x="133.35" y="76.454" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="127" y="87.249" size="1.778" layer="95"/>
+<attribute name="VALUE" x="127" y="66.294" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="185.42" y="104.14">
+<instance part="C2" gate="G$1" x="185.42" y="104.14" smashed="yes">
 <attribute name="PARTNO" x="185.42" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="186.944" y="104.521" size="1.778" layer="95"/>
+<attribute name="VALUE" x="186.944" y="99.441" size="1.778" layer="96"/>
 </instance>
-<instance part="SYMBLE6" gate="G$1" x="185.42" y="91.44"/>
-<instance part="C3" gate="G$1" x="198.12" y="104.14">
+<instance part="SYMBLE6" gate="G$1" x="185.42" y="91.44" smashed="yes"/>
+<instance part="C3" gate="G$1" x="198.12" y="104.14" smashed="yes">
 <attribute name="PARTNO" x="198.12" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="199.644" y="104.521" size="1.778" layer="95"/>
+<attribute name="VALUE" x="199.644" y="99.441" size="1.778" layer="96"/>
 </instance>
-<instance part="SYMBLE8" gate="G$1" x="198.12" y="91.44"/>
-<instance part="C4" gate="G$1" x="210.82" y="104.14">
+<instance part="SYMBLE8" gate="G$1" x="198.12" y="91.44" smashed="yes"/>
+<instance part="C4" gate="G$1" x="210.82" y="104.14" smashed="yes">
 <attribute name="PARTNO" x="210.82" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="212.344" y="104.521" size="1.778" layer="95"/>
+<attribute name="VALUE" x="212.344" y="99.441" size="1.778" layer="96"/>
 </instance>
-<instance part="SYMBLE10" gate="G$1" x="210.82" y="91.44"/>
-<instance part="C5" gate="G$1" x="220.98" y="104.14">
+<instance part="SYMBLE10" gate="G$1" x="210.82" y="91.44" smashed="yes"/>
+<instance part="C5" gate="G$1" x="220.98" y="104.14" smashed="yes">
 <attribute name="PARTNO" x="220.98" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="222.504" y="104.521" size="1.778" layer="95"/>
+<attribute name="VALUE" x="222.504" y="99.441" size="1.778" layer="96"/>
 </instance>
-<instance part="SYMBLE12" gate="G$1" x="220.98" y="91.44"/>
-<instance part="R1" gate="G$1" x="266.7" y="109.22"/>
-<instance part="E1" gate="G$1" x="279.4" y="109.22" rot="R90"/>
-<instance part="SYMBLE13" gate="G$1" x="292.1" y="82.55"/>
-<instance part="R2" gate="G$1" x="266.7" y="91.44"/>
-<instance part="E2" gate="1" x="279.4" y="93.98"/>
-<instance part="J7" gate="A" x="127" y="26.67">
+<instance part="SYMBLE12" gate="G$1" x="220.98" y="91.44" smashed="yes"/>
+<instance part="R1" gate="G$1" x="266.7" y="109.22" smashed="yes">
+<attribute name="VALUE" x="266.7" y="106.68" size="2.0828" layer="96" align="center"/>
+<attribute name="NAME" x="266.7" y="111.76" size="2.0828" layer="95" align="center"/>
+</instance>
+<instance part="E1" gate="G$1" x="279.4" y="109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="283.972" y="112.776" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="283.972" y="114.935" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SYMBLE13" gate="G$1" x="292.1" y="82.55" smashed="yes"/>
+<instance part="R2" gate="G$1" x="266.7" y="91.44" smashed="yes">
+<attribute name="VALUE" x="266.7" y="88.9" size="2.0828" layer="96" align="center"/>
+<attribute name="NAME" x="266.7" y="93.98" size="2.0828" layer="95" align="center"/>
+</instance>
+<instance part="E2" gate="1" x="279.4" y="93.98" smashed="yes">
+<attribute name="NAME" x="276.86" y="100.33" size="1.778" layer="95"/>
+<attribute name="VALUE" x="284.48" y="93.98" size="1.778" layer="96"/>
+</instance>
+<instance part="J7" gate="A" x="127" y="26.67" smashed="yes">
 <attribute name="PARTNO" x="127" y="26.67" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="120.65" y="37.465" size="1.778" layer="95"/>
+<attribute name="VALUE" x="120.65" y="16.51" size="1.778" layer="96"/>
 </instance>
-<instance part="U1" gate="G$1" x="137.16" y="17.78"/>
-<instance part="SYMBLE3" gate="G$1" x="106.68" y="40.64"/>
-<instance part="SYMBLE4" gate="G$1" x="106.68" y="17.78"/>
-<instance part="F1" gate="G$1" x="50.8" y="22.86" rot="R90">
+<instance part="U1" gate="G$1" x="137.16" y="17.78" smashed="yes">
+<attribute name="NAME" x="145.796" y="39.624" size="1.778" layer="94"/>
+<attribute name="VALUE" x="146.304" y="14.224" size="1.778" layer="94"/>
+</instance>
+<instance part="SYMBLE3" gate="G$1" x="106.68" y="40.64" smashed="yes">
+<attribute name="VALUE" x="104.14" y="43.18" size="1.778" layer="96"/>
+</instance>
+<instance part="SYMBLE4" gate="G$1" x="106.68" y="17.78" smashed="yes"/>
+<instance part="F1" gate="G$1" x="50.8" y="22.86" smashed="yes" rot="R90">
 <attribute name="PARTNO" x="50.8" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="50.5714" y="25.4" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="52.705" y="25.4" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="F2" gate="G$1" x="50.8" y="-27.94" rot="R90">
+<instance part="F2" gate="G$1" x="50.8" y="-27.94" smashed="yes" rot="R90">
 <attribute name="PARTNO" x="50.8" y="-27.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="50.5714" y="-25.4" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="52.705" y="-25.4" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$1" gate="G$1" x="7.62" y="40.64"/>
-<instance part="SYMBLE5" gate="G$1" x="185.42" y="114.3"/>
-<instance part="SYMBLE7" gate="G$1" x="198.12" y="114.3"/>
-<instance part="SYMBLE9" gate="G$1" x="210.82" y="114.3"/>
-<instance part="SYMBLE11" gate="G$1" x="220.98" y="114.3"/>
+<instance part="U$1" gate="G$1" x="7.62" y="40.64" smashed="yes"/>
+<instance part="SYMBLE5" gate="G$1" x="185.42" y="114.3" smashed="yes">
+<attribute name="VALUE" x="182.88" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="SYMBLE7" gate="G$1" x="198.12" y="114.3" smashed="yes">
+<attribute name="VALUE" x="195.58" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="SYMBLE9" gate="G$1" x="210.82" y="114.3" smashed="yes">
+<attribute name="VALUE" x="208.28" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="SYMBLE11" gate="G$1" x="220.98" y="114.3" smashed="yes">
+<attribute name="VALUE" x="218.44" y="116.84" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
