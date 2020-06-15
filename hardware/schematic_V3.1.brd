@@ -9,8 +9,8 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
@@ -232,7 +232,7 @@
 <text x="41.0148" y="6.5644" size="1.15" layer="21" font="vector" ratio="20" rot="R90">GND</text>
 <text x="9.0582" y="55.411" size="1" layer="21" font="vector" ratio="18">#5.2</text>
 <text x="58.590959375" y="5.712440625" size="0.8128" layer="21" font="vector" ratio="20">Barnabas Noggin</text>
-<text x="61.760596875" y="4.293203125" size="0.8128" layer="21" font="vector" ratio="20">Rev 2D</text>
+<text x="61.760596875" y="4.293203125" size="0.8128" layer="21" font="vector" ratio="20">Rev 2E</text>
 <hole x="10.41949375" y="7.83880625" drill="2.9"/>
 <text x="33.371" y="6.578" size="1.15" layer="21" font="vector" ratio="20" rot="R90">RST</text>
 <text x="57.8" y="59.3" size="1.15" layer="21" font="vector" ratio="18" rot="R90">2</text>
@@ -13546,6 +13546,9 @@
 <text x="67.7" y="40" size="1.15" layer="21" font="vector" ratio="18" rot="R180">10</text>
 <text x="66.7" y="37.4" size="1.15" layer="21" font="vector" ratio="18" rot="R180">V</text>
 <text x="66.7" y="34.8" size="1.15" layer="21" font="vector" ratio="18" rot="R180">G</text>
+<text x="33.3" y="21.2" size="1.778" layer="21">+</text>
+<text x="34.8" y="14.1" size="1.778" layer="21" rot="R90">-</text>
+<text x="47.6" y="22.4" size="1.778" layer="21">-</text>
 </plain>
 <libraries>
 <library name="barnabas_noggin_V4" urn="urn:adsk.eagle:library:20877222">
@@ -14284,8 +14287,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="E2" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" package="BUZZER" package3d_urn="urn:adsk.eagle:package:20877349/2" value="BUZZER" x="51.854" y="20.532" smashed="yes">
 <attribute name="MF" value="" x="51.854" y="-19.092" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="51.854" y="-19.092" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="51.854" y="20.532" size="1.27" layer="51" ratio="10" align="center"/>
 <attribute name="NAME" x="51.056" y="26.847" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="51.854" y="20.532" size="1.27" layer="51" ratio="10" align="center"/>
 <attribute name="OC_FARNELL" value="unknown" x="51.854" y="-19.092" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="51.854" y="-19.092" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="48.044" y="16.722" size="1.27" layer="27" ratio="10"/>
