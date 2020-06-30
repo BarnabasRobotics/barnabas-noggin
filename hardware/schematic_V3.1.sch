@@ -606,21 +606,21 @@ chip</description>
 <packageinstance name="1X06"/>
 </packageinstances>
 </package3d>
-<package3d name="RESISTOR_PTH" urn="urn:adsk.eagle:package:20877350/2" type="model" library_version="3">
+<package3d name="RESISTOR_PTH" urn="urn:adsk.eagle:package:20877350/3" type="model" library_version="7">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0207, grid 10 mm</description>
 <packageinstances>
 <packageinstance name="RESISTOR_PTH"/>
 </packageinstances>
 </package3d>
-<package3d name="LED5MM" urn="urn:adsk.eagle:package:20877351/2" type="model" library_version="3">
+<package3d name="LED5MM" urn="urn:adsk.eagle:package:20877351/3" type="model" library_version="7">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
 5 mm, round</description>
 <packageinstances>
 <packageinstance name="LED5MM"/>
 </packageinstances>
 </package3d>
-<package3d name="BUZZER" urn="urn:adsk.eagle:package:20877349/2" type="model" library_version="3">
+<package3d name="BUZZER" urn="urn:adsk.eagle:package:20877349/3" type="model" library_version="7">
 <description>&lt;b&gt;BUZZER&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="BUZZER"/>
@@ -1071,7 +1071,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </device>
 </devices>
 </deviceset>
-<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:20877378/3" prefix="R" uservalue="yes" library_version="6">
+<deviceset name="RESISTOR" urn="urn:adsk.eagle:component:20877378/4" prefix="R" uservalue="yes" library_version="7">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -1094,7 +1094,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20877350/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20877350/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1102,7 +1102,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </device>
 </devices>
 </deviceset>
-<deviceset name="LEDPTH" urn="urn:adsk.eagle:component:20877374/2" prefix="E" library_version="3">
+<deviceset name="LEDPTH" urn="urn:adsk.eagle:component:20877374/3" prefix="E" library_version="7">
 <gates>
 <gate name="G$1" symbol="LEDPTH" x="0" y="-2.54"/>
 </gates>
@@ -1113,7 +1113,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <connect gate="G$1" pin="C" pad="K"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20877351/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20877351/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1121,7 +1121,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUZZER" urn="urn:adsk.eagle:component:20877373/2" prefix="E" library_version="3">
+<deviceset name="BUZZER" urn="urn:adsk.eagle:component:20877373/3" prefix="E" library_version="7">
 <description>&lt;b&gt;BUZZER&lt;/b&gt;&lt;p&gt; Source: Buerklin</description>
 <gates>
 <gate name="1" symbol="BUZZER" x="0" y="0"/>
@@ -1133,7 +1133,7 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <connect gate="1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20877349/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20877349/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1298,11 +1298,11 @@ This is the standard 5.5mm barrel jack for power. The PTH is the most common, pr
 <attribute name="PARTNO" value="CC0603ZRY5V9BB104"/>
 </part>
 <part name="SYMBLE12" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="GND" device=""/>
-<part name="R1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:20877350/2" value="470"/>
-<part name="E1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="LEDPTH" device="" package3d_urn="urn:adsk.eagle:package:20877351/2"/>
+<part name="R1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:20877350/3" value="470"/>
+<part name="E1" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="LEDPTH" device="" package3d_urn="urn:adsk.eagle:package:20877351/3"/>
 <part name="SYMBLE13" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="GND" device=""/>
-<part name="R2" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:20877350/2" value="470"/>
-<part name="E2" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="BUZZER" device="" package3d_urn="urn:adsk.eagle:package:20877349/2"/>
+<part name="R2" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:20877350/3" value="470"/>
+<part name="E2" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="BUZZER" device="" package3d_urn="urn:adsk.eagle:package:20877349/3"/>
 <part name="J7" library="barnabas_noggin_V4" library_urn="urn:adsk.eagle:library:20877222" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:20877348/2" value="2.54mm">
 <attribute name="PARTNO" value="M20-7820646"/>
 </part>
